@@ -1,0 +1,1852 @@
+{
+    "meta" : {
+      "view" : {
+        "id" : "qkcc-8trv",
+        "name" : "Farmers Markets",
+        "attribution" : "Department of Agriculutre",
+        "averageRating" : 0,
+        "createdAt" : 1395432937,
+        "displayType" : "table",
+        "downloadCount" : 1798,
+        "hideFromCatalog" : false,
+        "hideFromDataJson" : false,
+        "indexUpdatedAt" : 1479478250,
+        "licenseId" : "PUBLIC_DOMAIN",
+        "newBackend" : false,
+        "numberOfComments" : 0,
+        "oid" : 24918586,
+        "provenance" : "official",
+        "publicationAppendEnabled" : false,
+        "publicationDate" : 1479478015,
+        "publicationGroup" : 1518921,
+        "publicationStage" : "published",
+        "rowsUpdatedAt" : 1479478005,
+        "rowsUpdatedBy" : "cvy9-n6sb",
+        "tableId" : 13909719,
+        "totalTimesRated" : 0,
+        "viewCount" : 589,
+        "viewLastModified" : 1479478015,
+        "viewType" : "tabular",
+        "columns" : [ {
+          "id" : -1,
+          "name" : "sid",
+          "dataTypeName" : "meta_data",
+          "fieldName" : ":sid",
+          "position" : 0,
+          "renderTypeName" : "meta_data",
+          "format" : { },
+          "flags" : [ "hidden" ]
+        }, {
+          "id" : -1,
+          "name" : "id",
+          "dataTypeName" : "meta_data",
+          "fieldName" : ":id",
+          "position" : 0,
+          "renderTypeName" : "meta_data",
+          "format" : { },
+          "flags" : [ "hidden" ]
+        }, {
+          "id" : -1,
+          "name" : "position",
+          "dataTypeName" : "meta_data",
+          "fieldName" : ":position",
+          "position" : 0,
+          "renderTypeName" : "meta_data",
+          "format" : { },
+          "flags" : [ "hidden" ]
+        }, {
+          "id" : -1,
+          "name" : "created_at",
+          "dataTypeName" : "meta_data",
+          "fieldName" : ":created_at",
+          "position" : 0,
+          "renderTypeName" : "meta_data",
+          "format" : { },
+          "flags" : [ "hidden" ]
+        }, {
+          "id" : -1,
+          "name" : "created_meta",
+          "dataTypeName" : "meta_data",
+          "fieldName" : ":created_meta",
+          "position" : 0,
+          "renderTypeName" : "meta_data",
+          "format" : { },
+          "flags" : [ "hidden" ]
+        }, {
+          "id" : -1,
+          "name" : "updated_at",
+          "dataTypeName" : "meta_data",
+          "fieldName" : ":updated_at",
+          "position" : 0,
+          "renderTypeName" : "meta_data",
+          "format" : { },
+          "flags" : [ "hidden" ]
+        }, {
+          "id" : -1,
+          "name" : "updated_meta",
+          "dataTypeName" : "meta_data",
+          "fieldName" : ":updated_meta",
+          "position" : 0,
+          "renderTypeName" : "meta_data",
+          "format" : { },
+          "flags" : [ "hidden" ]
+        }, {
+          "id" : -1,
+          "name" : "meta",
+          "dataTypeName" : "meta_data",
+          "fieldName" : ":meta",
+          "position" : 0,
+          "renderTypeName" : "meta_data",
+          "format" : { },
+          "flags" : [ "hidden" ]
+        }, {
+          "id" : 278083868,
+          "name" : "FMID",
+          "dataTypeName" : "number",
+          "fieldName" : "fmid",
+          "position" : 2,
+          "renderTypeName" : "number",
+          "tableColumnId" : 18765305,
+          "width" : 148,
+          "cachedContents" : {
+            "largest" : "1008929",
+            "non_null" : 156,
+            "average" : "962387.6730769231",
+            "null" : 0,
+            "top" : [ {
+              "item" : "1005794",
+              "count" : 20
+            }, {
+              "item" : "1005793",
+              "count" : 19
+            }, {
+              "item" : "1007451",
+              "count" : 18
+            }, {
+              "item" : "1007811",
+              "count" : 17
+            }, {
+              "item" : "20334",
+              "count" : 16
+            }, {
+              "item" : "1007452",
+              "count" : 15
+            }, {
+              "item" : "1007453",
+              "count" : 14
+            }, {
+              "item" : "1007437",
+              "count" : 13
+            }, {
+              "item" : "1007448",
+              "count" : 12
+            }, {
+              "item" : "20355",
+              "count" : 11
+            }, {
+              "item" : "1004394",
+              "count" : 10
+            }, {
+              "item" : "20361",
+              "count" : 9
+            }, {
+              "item" : "20363",
+              "count" : 8
+            }, {
+              "item" : "1007456",
+              "count" : 7
+            }, {
+              "item" : "1007492",
+              "count" : 6
+            }, {
+              "item" : "1007484",
+              "count" : 5
+            }, {
+              "item" : "1007500",
+              "count" : 4
+            }, {
+              "item" : "1007513",
+              "count" : 3
+            }, {
+              "item" : "1007454",
+              "count" : 2
+            }, {
+              "item" : "1001956",
+              "count" : 1
+            } ],
+            "smallest" : "20053",
+            "sum" : "150132477"
+          },
+          "format" : {
+            "precisionStyle" : "standard",
+            "noCommas" : "true",
+            "align" : "right"
+          }
+        }, {
+          "id" : 278083869,
+          "name" : "MarketName",
+          "dataTypeName" : "text",
+          "fieldName" : "marketname",
+          "position" : 3,
+          "renderTypeName" : "text",
+          "tableColumnId" : 18765306,
+          "width" : 220,
+          "cachedContents" : {
+            "largest" : "WOODBURY FARMERS’ MARKET",
+            "non_null" : 156,
+            "null" : 0,
+            "top" : [ {
+              "item" : "New London Field of Greens Markets",
+              "count" : 20
+            }, {
+              "item" : "Sandy Hook Organic Farmers Market",
+              "count" : 19
+            }, {
+              "item" : "Stratford Farmers Market",
+              "count" : 18
+            }, {
+              "item" : "Suffield Farmers Market",
+              "count" : 17
+            }, {
+              "item" : "The Morris Marketplace",
+              "count" : 16
+            }, {
+              "item" : "Thomaston Farmers Market",
+              "count" : 15
+            }, {
+              "item" : "Tolland Farmers Market",
+              "count" : 14
+            }, {
+              "item" : "Torrington Farmers Market",
+              "count" : 13
+            }, {
+              "item" : "Trumbull Farmers Market",
+              "count" : 12
+            }, {
+              "item" : "Upper State Street Farm Market",
+              "count" : 11
+            }, {
+              "item" : "urban oaks organic farm",
+              "count" : 10
+            }, {
+              "item" : "Village of Devon Farmer's Market",
+              "count" : 9
+            }, {
+              "item" : "Voluntown Farmers' Market",
+              "count" : 8
+            }, {
+              "item" : "Wallingford Farmers Market",
+              "count" : 7
+            }, {
+              "item" : "WASHINGTON DEPOT FARMERS’ MARKET",
+              "count" : 6
+            }, {
+              "item" : "WATERBURY - FULTON PARK FARMERS’ MARKET",
+              "count" : 5
+            }, {
+              "item" : "WATERBURY - MALL FARMERS’ MARKET",
+              "count" : 4
+            }, {
+              "item" : "Waterbury - South End Farmers’ Market",
+              "count" : 3
+            }, {
+              "item" : "WATERBURY - TOWN GREEN FARMERS’ MARKET",
+              "count" : 2
+            }, {
+              "item" : "Waterford Farmers' Market",
+              "count" : 1
+            } ],
+            "smallest" : "ASHFORD FARMERS’ MARKET"
+          },
+          "format" : { }
+        }, {
+          "id" : 278083870,
+          "name" : "Website",
+          "dataTypeName" : "url",
+          "fieldName" : "website",
+          "position" : 4,
+          "renderTypeName" : "url",
+          "tableColumnId" : 18765307,
+          "width" : 184,
+          "cachedContents" : {
+            "largest" : {
+              "url" : "http://www.wintermarket-ct.com"
+            },
+            "non_null" : 68,
+            "null" : 88,
+            "top" : [ {
+              "item" : {
+                "url" : "http://www.nectfarmersmarket.org"
+              },
+              "count" : 20
+            }, {
+              "item" : {
+                "url" : "http://www.lhfs-ct.org"
+              },
+              "count" : 19
+            }, {
+              "item" : {
+                "url" : "http://www.newlondonfieldofgreens.org"
+              },
+              "count" : 18
+            }, {
+              "item" : {
+                "url" : "http://www.rowaytonct.com/farmersmarket"
+              },
+              "count" : 17
+            }, {
+              "item" : {
+                "url" : "http://www.ogfarmersmarket.com"
+              },
+              "count" : 16
+            }, {
+              "item" : {
+                "url" : "http://www.oldsaybrookfarmersmarket.com"
+              },
+              "count" : 15
+            }, {
+              "item" : {
+                "url" : "http://www.nectfaremrsmarket.org"
+              },
+              "count" : 14
+            }, {
+              "item" : {
+                "url" : "http://www.tritownfoods.com"
+              },
+              "count" : 13
+            }, {
+              "item" : {
+                "url" : "http://www.localharvest.org/salem-farmers-market-M5368"
+              },
+              "count" : 12
+            }, {
+              "item" : {
+                "url" : "http://www.sandyhookorganicfarmersmarket.org"
+              },
+              "count" : 11
+            }, {
+              "item" : {
+                "url" : "http://www.localharvest.org/thefarmersfarketatfairfieldhills/"
+              },
+              "count" : 10
+            }, {
+              "item" : {
+                "url" : "http://www.simsburyfarmmarket.com/"
+              },
+              "count" : 9
+            }, {
+              "item" : {
+                "url" : "http://www.swfood.org"
+              },
+              "count" : 8
+            }, {
+              "item" : {
+                "url" : "http://www.bartlettarboretum.org/newsevents/farmersmarket2009/"
+              },
+              "count" : 7
+            }, {
+              "item" : {
+                "url" : "http://www.StorrsFarmersMarket.org"
+              },
+              "count" : 6
+            }, {
+              "item" : {
+                "url" : "http://www.suffieldtownhall.com"
+              },
+              "count" : 5
+            }, {
+              "item" : {
+                "url" : "http://www.themorrismarket.org/themorrismarketplace.org/home.html"
+              },
+              "count" : 4
+            }, {
+              "item" : {
+                "url" : "http://www.upperstatestreet.org/visit/"
+              },
+              "count" : 3
+            }, {
+              "item" : {
+                "url" : "http://www.blog.urbanoaks.org"
+              },
+              "count" : 2
+            }, {
+              "item" : {
+                "url" : "http://www.waterfordfarmersmarket.wordpress.com"
+              },
+              "count" : 1
+            } ],
+            "smallest" : {
+              "url" : "http://www.StorrsFarmersMarket.org"
+            }
+          },
+          "format" : { },
+          "subColumnTypes" : [ "url", "description" ]
+        }, {
+          "id" : 278083871,
+          "name" : "County",
+          "dataTypeName" : "text",
+          "fieldName" : "county",
+          "position" : 5,
+          "renderTypeName" : "text",
+          "tableColumnId" : 18765308,
+          "width" : 172,
+          "cachedContents" : {
+            "largest" : "Windham County",
+            "non_null" : 148,
+            "null" : 8,
+            "top" : [ {
+              "item" : "Windham",
+              "count" : 20
+            }, {
+              "item" : "Hartford",
+              "count" : 19
+            }, {
+              "item" : "New Haven",
+              "count" : 18
+            }, {
+              "item" : "Fairfield",
+              "count" : 17
+            }, {
+              "item" : "New London",
+              "count" : 16
+            }, {
+              "item" : "Windham County",
+              "count" : 15
+            }, {
+              "item" : "Middlesex",
+              "count" : 14
+            }, {
+              "item" : "Litchfield",
+              "count" : 13
+            }, {
+              "item" : "Tolland",
+              "count" : 12
+            } ],
+            "smallest" : "Fairfield"
+          },
+          "format" : { }
+        }, {
+          "id" : 278083872,
+          "name" : "Season1Date",
+          "dataTypeName" : "text",
+          "fieldName" : "season1date",
+          "position" : 6,
+          "renderTypeName" : "text",
+          "tableColumnId" : 18765309,
+          "width" : 232,
+          "cachedContents" : {
+            "largest" : "May to September",
+            "non_null" : 42,
+            "null" : 114,
+            "top" : [ {
+              "item" : "June to October",
+              "count" : 20
+            }, {
+              "item" : "07/05/2013 to 10/11/2013",
+              "count" : 19
+            }, {
+              "item" : "05/05/2013 to 12/22/2013",
+              "count" : 18
+            }, {
+              "item" : "07/11/2013 to 10/31/2013",
+              "count" : 17
+            }, {
+              "item" : "07/12/2013 to 10/25/2013",
+              "count" : 16
+            }, {
+              "item" : "05/05/2013 to",
+              "count" : 15
+            }, {
+              "item" : "06/09/2013 to 10/20/2013",
+              "count" : 14
+            }, {
+              "item" : "06/01/2013 to 10/27/2013",
+              "count" : 13
+            }, {
+              "item" : "06/28/2013 to 10/25/2013",
+              "count" : 12
+            }, {
+              "item" : "July to September",
+              "count" : 11
+            }, {
+              "item" : "May to September",
+              "count" : 10
+            }, {
+              "item" : "06/06/2013 to 10/31/2013",
+              "count" : 9
+            }, {
+              "item" : "11/23/2013 to 04/19/2014",
+              "count" : 8
+            }, {
+              "item" : "07/12/2013 to 09/27/2013",
+              "count" : 7
+            }, {
+              "item" : "06/26/2013 to 10/30/2013",
+              "count" : 6
+            }, {
+              "item" : "06/07/2013 to 10/25/2013",
+              "count" : 5
+            }, {
+              "item" : "07/07/2013 to 10/20/2013",
+              "count" : 4
+            }, {
+              "item" : "06/22/2013 to 10/05/2013",
+              "count" : 3
+            }, {
+              "item" : "06/01/2013 to 10/12/2013",
+              "count" : 2
+            }, {
+              "item" : "01/01/2013 to 12/31/2013",
+              "count" : 1
+            } ],
+            "smallest" : "01/01/2013 to 12/31/2013"
+          },
+          "format" : { }
+        }, {
+          "id" : 278083873,
+          "name" : "Season1Time",
+          "dataTypeName" : "text",
+          "fieldName" : "season1time",
+          "position" : 7,
+          "renderTypeName" : "text",
+          "tableColumnId" : 18765310,
+          "width" : 232,
+          "cachedContents" : {
+            "largest" : "Wed:3:00 PM - 6:00 PM;",
+            "non_null" : 42,
+            "null" : 114,
+            "top" : [ {
+              "item" : "Sat:9:00 AM - 1:00 PM;",
+              "count" : 20
+            }, {
+              "item" : "Fri: 4:00 PM-7:00 PM;",
+              "count" : 19
+            }, {
+              "item" : "Sun: 10:00 AM-2:00 PM;",
+              "count" : 18
+            }, {
+              "item" : "Thu: 2:00 PM-6:00 PM;",
+              "count" : 17
+            }, {
+              "item" : "Fri: 11:00 AM-2:00 PM;",
+              "count" : 16
+            }, {
+              "item" : "Sat: 9:00 AM-1:00 PM;",
+              "count" : 15
+            }, {
+              "item" : "Sun: 10:00 AM-1:00 PM;",
+              "count" : 14
+            }, {
+              "item" : "Sun: 11:00 AM-2:00 PM;",
+              "count" : 13
+            }, {
+              "item" : "Fri: 11:30 AM-5:30 PM;",
+              "count" : 12
+            }, {
+              "item" : "Thu:3:00 PM - 6:30 PM;",
+              "count" : 11
+            }, {
+              "item" : "Sat: 9:00 AM-12:00 PM;",
+              "count" : 10
+            }, {
+              "item" : "Thu: 11:00 AM-2:00 PM;",
+              "count" : 9
+            }, {
+              "item" : "Sat: 10:00 AM-2:00 PM;",
+              "count" : 8
+            }, {
+              "item" : "Sat:12:30 pm - 4:00 pm;",
+              "count" : 7
+            }, {
+              "item" : "Fri: 3:00 PM-6:00 PM;",
+              "count" : 6
+            }, {
+              "item" : "Wed: 10:00 AM-1:00 PM;",
+              "count" : 5
+            }, {
+              "item" : "Fri: 3:30 PM-6:30 PM;",
+              "count" : 4
+            }, {
+              "item" : "Sat: 9:00 AM-12:30 PM;",
+              "count" : 3
+            }, {
+              "item" : "Sat: 10:00 AM-1:00 PM;",
+              "count" : 2
+            }, {
+              "item" : "Sat:9:00 am - 1:00 pm;",
+              "count" : 1
+            } ],
+            "smallest" : "Fri: 10:00 AM-2:00 PM;"
+          },
+          "format" : { }
+        }, {
+          "id" : 278083874,
+          "name" : "Season2Date",
+          "dataTypeName" : "text",
+          "fieldName" : "season2date",
+          "position" : 8,
+          "renderTypeName" : "text",
+          "tableColumnId" : 18765311,
+          "width" : 232,
+          "cachedContents" : {
+            "largest" : "11/07/2013 to 05/29/2014",
+            "non_null" : 1,
+            "null" : 155,
+            "top" : [ {
+              "item" : "11/07/2013 to 05/29/2014",
+              "count" : 20
+            } ],
+            "smallest" : "11/07/2013 to 05/29/2014"
+          },
+          "format" : { }
+        }, {
+          "id" : 278083875,
+          "name" : "Season2Time",
+          "dataTypeName" : "text",
+          "fieldName" : "season2time",
+          "position" : 9,
+          "renderTypeName" : "text",
+          "tableColumnId" : 18765312,
+          "width" : 232,
+          "cachedContents" : {
+            "largest" : "Thu: 11:00 AM-2:00 PM;",
+            "non_null" : 1,
+            "null" : 155,
+            "top" : [ {
+              "item" : "Thu: 11:00 AM-2:00 PM;",
+              "count" : 20
+            } ],
+            "smallest" : "Thu: 11:00 AM-2:00 PM;"
+          },
+          "format" : { }
+        }, {
+          "id" : 278083876,
+          "name" : "Season3Date",
+          "dataTypeName" : "text",
+          "fieldName" : "season3date",
+          "position" : 10,
+          "renderTypeName" : "text",
+          "tableColumnId" : 18765313,
+          "width" : 232,
+          "cachedContents" : {
+            "non_null" : 0,
+            "null" : 156
+          },
+          "format" : { }
+        }, {
+          "id" : 278083877,
+          "name" : "Season3Time",
+          "dataTypeName" : "text",
+          "fieldName" : "season3time",
+          "position" : 11,
+          "renderTypeName" : "text",
+          "tableColumnId" : 18765314,
+          "width" : 232,
+          "cachedContents" : {
+            "non_null" : 0,
+            "null" : 156
+          },
+          "format" : { }
+        }, {
+          "id" : 278083878,
+          "name" : "Season4Date",
+          "dataTypeName" : "text",
+          "fieldName" : "season4date",
+          "position" : 12,
+          "renderTypeName" : "text",
+          "tableColumnId" : 18765315,
+          "width" : 232,
+          "cachedContents" : {
+            "non_null" : 0,
+            "null" : 156
+          },
+          "format" : { }
+        }, {
+          "id" : 278083879,
+          "name" : "Season4Time",
+          "dataTypeName" : "text",
+          "fieldName" : "season4time",
+          "position" : 13,
+          "renderTypeName" : "text",
+          "tableColumnId" : 18765316,
+          "width" : 232,
+          "cachedContents" : {
+            "non_null" : 0,
+            "null" : 156
+          },
+          "format" : { }
+        }, {
+          "id" : 278083880,
+          "name" : "x",
+          "dataTypeName" : "number",
+          "fieldName" : "x",
+          "position" : 14,
+          "renderTypeName" : "number",
+          "tableColumnId" : 18765317,
+          "width" : 112,
+          "cachedContents" : {
+            "largest" : "-71.865899999999996",
+            "non_null" : 156,
+            "average" : "-72.80443321859505",
+            "null" : 0,
+            "top" : [ {
+              "item" : "-72.241802000000007",
+              "count" : 20
+            }, {
+              "item" : "-72.196176500000007",
+              "count" : 19
+            }, {
+              "item" : "-73.129374012350993",
+              "count" : 18
+            }, {
+              "item" : "-72.650099999999995",
+              "count" : 17
+            }, {
+              "item" : "-73.180999999999997",
+              "count" : 16
+            }, {
+              "item" : "-73.103499999999997",
+              "count" : 15
+            }, {
+              "item" : "-72.369500000000002",
+              "count" : 14
+            }, {
+              "item" : "-73.115399999999994",
+              "count" : 13
+            }, {
+              "item" : "-73.209900000000005",
+              "count" : 12
+            }, {
+              "item" : "-72.909300000000002",
+              "count" : 11
+            }, {
+              "item" : "-72.775548999999998",
+              "count" : 10
+            }, {
+              "item" : "-73.104299999999995",
+              "count" : 9
+            }, {
+              "item" : "-71.865899999999996",
+              "count" : 8
+            }, {
+              "item" : "-72.823300000000003",
+              "count" : 7
+            }, {
+              "item" : "-73.320499999999996",
+              "count" : 6
+            }, {
+              "item" : "-73.037751999999998",
+              "count" : 5
+            }, {
+              "item" : "-73.043300000000002",
+              "count" : 4
+            }, {
+              "item" : "-73.027900000000002",
+              "count" : 3
+            }, {
+              "item" : "-73.083500000000001",
+              "count" : 2
+            }, {
+              "item" : "-72.131489999999999",
+              "count" : 1
+            } ],
+            "smallest" : "-73.628200000000007",
+            "sum" : "-11357.491582100827435"
+          },
+          "format" : { }
+        }, {
+          "id" : 278083881,
+          "name" : "y",
+          "dataTypeName" : "number",
+          "fieldName" : "y",
+          "position" : 15,
+          "renderTypeName" : "number",
+          "tableColumnId" : 18765318,
+          "width" : 112,
+          "cachedContents" : {
+            "largest" : "41.998348236083999",
+            "non_null" : 156,
+            "average" : "41.50979184742942",
+            "null" : 0,
+            "top" : [ {
+              "item" : "41.801454999999997",
+              "count" : 20
+            }, {
+              "item" : "41.768322099999999",
+              "count" : 19
+            }, {
+              "item" : "41.174606010317802",
+              "count" : 18
+            }, {
+              "item" : "41.985799999999998",
+              "count" : 17
+            }, {
+              "item" : "41.682699999999997",
+              "count" : 16
+            }, {
+              "item" : "41.7044",
+              "count" : 15
+            }, {
+              "item" : "41.872799999999998",
+              "count" : 14
+            }, {
+              "item" : "41.814700000000002",
+              "count" : 13
+            }, {
+              "item" : "41.252499999999998",
+              "count" : 12
+            }, {
+              "item" : "41.316000000000003",
+              "count" : 11
+            }, {
+              "item" : "41.680233000000001",
+              "count" : 10
+            }, {
+              "item" : "41.201500000000003",
+              "count" : 9
+            }, {
+              "item" : "41.573599999999999",
+              "count" : 8
+            }, {
+              "item" : "41.457000000000001",
+              "count" : 7
+            }, {
+              "item" : "41.639699999999998",
+              "count" : 6
+            }, {
+              "item" : "41.569015",
+              "count" : 5
+            }, {
+              "item" : "41.554400000000001",
+              "count" : 4
+            }, {
+              "item" : "41.540100000000002",
+              "count" : 3
+            }, {
+              "item" : "41.586599999999997",
+              "count" : 2
+            }, {
+              "item" : "41.342970000000001",
+              "count" : 1
+            } ],
+            "smallest" : "41.031537200000002",
+            "sum" : "6475.527528198989736"
+          },
+          "format" : { }
+        }, {
+          "id" : 278083882,
+          "name" : "Location",
+          "dataTypeName" : "text",
+          "fieldName" : "location",
+          "position" : 16,
+          "renderTypeName" : "text",
+          "tableColumnId" : 18765319,
+          "width" : 196,
+          "cachedContents" : {
+            "largest" : "Private business parking lot",
+            "non_null" : 42,
+            "null" : 114,
+            "top" : [ {
+              "item" : "Local government building grounds",
+              "count" : 20
+            }, {
+              "item" : "Other",
+              "count" : 19
+            }, {
+              "item" : "Federal/State government building grounds",
+              "count" : 18
+            }, {
+              "item" : "Closed-off public street",
+              "count" : 17
+            }, {
+              "item" : "Private business parking lot",
+              "count" : 16
+            }, {
+              "item" : "Educational institution",
+              "count" : 15
+            }, {
+              "item" : "On a farm from: a barn, a greenhouse, a tent, a stand, etc",
+              "count" : 14
+            }, {
+              "item" : "Healthcare Institution",
+              "count" : 13
+            } ],
+            "smallest" : "Closed-off public street"
+          },
+          "format" : { }
+        }, {
+          "id" : 278083883,
+          "name" : "Credit",
+          "dataTypeName" : "text",
+          "fieldName" : "credit",
+          "position" : 17,
+          "renderTypeName" : "text",
+          "tableColumnId" : 18765320,
+          "width" : 172,
+          "cachedContents" : {
+            "largest" : "Y",
+            "non_null" : 156,
+            "null" : 0,
+            "top" : [ {
+              "item" : "Y",
+              "count" : 20
+            } ],
+            "smallest" : "Y"
+          },
+          "format" : { }
+        }, {
+          "id" : 278083884,
+          "name" : "WIC",
+          "dataTypeName" : "text",
+          "fieldName" : "wic",
+          "position" : 18,
+          "renderTypeName" : "text",
+          "tableColumnId" : 18765321,
+          "width" : 136,
+          "cachedContents" : {
+            "largest" : "Y",
+            "non_null" : 156,
+            "null" : 0,
+            "top" : [ {
+              "item" : "N",
+              "count" : 20
+            }, {
+              "item" : "Y",
+              "count" : 19
+            } ],
+            "smallest" : "N"
+          },
+          "format" : { }
+        }, {
+          "id" : 278083885,
+          "name" : "WICcash",
+          "dataTypeName" : "text",
+          "fieldName" : "wiccash",
+          "position" : 19,
+          "renderTypeName" : "text",
+          "tableColumnId" : 18765322,
+          "width" : 184,
+          "cachedContents" : {
+            "largest" : "Y",
+            "non_null" : 156,
+            "null" : 0,
+            "top" : [ {
+              "item" : "N",
+              "count" : 20
+            }, {
+              "item" : "Y",
+              "count" : 19
+            } ],
+            "smallest" : "N"
+          },
+          "format" : { }
+        }, {
+          "id" : 278083886,
+          "name" : "SFMNP",
+          "dataTypeName" : "text",
+          "fieldName" : "sfmnp",
+          "position" : 20,
+          "renderTypeName" : "text",
+          "tableColumnId" : 18765323,
+          "width" : 160,
+          "cachedContents" : {
+            "largest" : "Y",
+            "non_null" : 156,
+            "null" : 0,
+            "top" : [ {
+              "item" : "N",
+              "count" : 20
+            }, {
+              "item" : "Y",
+              "count" : 19
+            } ],
+            "smallest" : "N"
+          },
+          "format" : { }
+        }, {
+          "id" : 278083887,
+          "name" : "SNAP",
+          "dataTypeName" : "text",
+          "fieldName" : "snap",
+          "position" : 21,
+          "renderTypeName" : "text",
+          "tableColumnId" : 18765324,
+          "width" : 148,
+          "cachedContents" : {
+            "largest" : "Y",
+            "non_null" : 156,
+            "null" : 0,
+            "top" : [ {
+              "item" : "N",
+              "count" : 20
+            }, {
+              "item" : "Y",
+              "count" : 19
+            } ],
+            "smallest" : "N"
+          },
+          "format" : { }
+        }, {
+          "id" : 278083888,
+          "name" : "Bakedgoods",
+          "dataTypeName" : "text",
+          "fieldName" : "bakedgoods",
+          "position" : 22,
+          "renderTypeName" : "text",
+          "tableColumnId" : 18765325,
+          "width" : 220,
+          "cachedContents" : {
+            "largest" : "Y",
+            "non_null" : 156,
+            "null" : 0,
+            "top" : [ {
+              "item" : "N",
+              "count" : 20
+            }, {
+              "item" : "Y",
+              "count" : 19
+            } ],
+            "smallest" : "N"
+          },
+          "format" : { }
+        }, {
+          "id" : 278083889,
+          "name" : "Cheese",
+          "dataTypeName" : "text",
+          "fieldName" : "cheese",
+          "position" : 23,
+          "renderTypeName" : "text",
+          "tableColumnId" : 18765326,
+          "width" : 172,
+          "cachedContents" : {
+            "largest" : "Y",
+            "non_null" : 156,
+            "null" : 0,
+            "top" : [ {
+              "item" : "N",
+              "count" : 20
+            }, {
+              "item" : "Y",
+              "count" : 19
+            } ],
+            "smallest" : "N"
+          },
+          "format" : { }
+        }, {
+          "id" : 278083890,
+          "name" : "Crafts",
+          "dataTypeName" : "text",
+          "fieldName" : "crafts",
+          "position" : 24,
+          "renderTypeName" : "text",
+          "tableColumnId" : 18765327,
+          "width" : 172,
+          "cachedContents" : {
+            "largest" : "Y",
+            "non_null" : 156,
+            "null" : 0,
+            "top" : [ {
+              "item" : "N",
+              "count" : 20
+            }, {
+              "item" : "Y",
+              "count" : 19
+            } ],
+            "smallest" : "N"
+          },
+          "format" : { }
+        }, {
+          "id" : 278083891,
+          "name" : "Flowers",
+          "dataTypeName" : "text",
+          "fieldName" : "flowers",
+          "position" : 25,
+          "renderTypeName" : "text",
+          "tableColumnId" : 18765328,
+          "width" : 184,
+          "cachedContents" : {
+            "largest" : "Y",
+            "non_null" : 156,
+            "null" : 0,
+            "top" : [ {
+              "item" : "N",
+              "count" : 20
+            }, {
+              "item" : "Y",
+              "count" : 19
+            } ],
+            "smallest" : "N"
+          },
+          "format" : { }
+        }, {
+          "id" : 278083892,
+          "name" : "Eggs",
+          "dataTypeName" : "text",
+          "fieldName" : "eggs",
+          "position" : 26,
+          "renderTypeName" : "text",
+          "tableColumnId" : 18765329,
+          "width" : 148,
+          "cachedContents" : {
+            "largest" : "Y",
+            "non_null" : 156,
+            "null" : 0,
+            "top" : [ {
+              "item" : "N",
+              "count" : 20
+            }, {
+              "item" : "Y",
+              "count" : 19
+            } ],
+            "smallest" : "N"
+          },
+          "format" : { }
+        }, {
+          "id" : 278083893,
+          "name" : "Seafood",
+          "dataTypeName" : "text",
+          "fieldName" : "seafood",
+          "position" : 27,
+          "renderTypeName" : "text",
+          "tableColumnId" : 18765330,
+          "width" : 184,
+          "cachedContents" : {
+            "largest" : "Y",
+            "non_null" : 156,
+            "null" : 0,
+            "top" : [ {
+              "item" : "N",
+              "count" : 20
+            }, {
+              "item" : "Y",
+              "count" : 19
+            } ],
+            "smallest" : "N"
+          },
+          "format" : { }
+        }, {
+          "id" : 278083894,
+          "name" : "Herbs",
+          "dataTypeName" : "text",
+          "fieldName" : "herbs",
+          "position" : 28,
+          "renderTypeName" : "text",
+          "tableColumnId" : 18765331,
+          "width" : 160,
+          "cachedContents" : {
+            "largest" : "Y",
+            "non_null" : 156,
+            "null" : 0,
+            "top" : [ {
+              "item" : "N",
+              "count" : 20
+            }, {
+              "item" : "Y",
+              "count" : 19
+            } ],
+            "smallest" : "N"
+          },
+          "format" : { }
+        }, {
+          "id" : 278083895,
+          "name" : "Vegetables",
+          "dataTypeName" : "text",
+          "fieldName" : "vegetables",
+          "position" : 29,
+          "renderTypeName" : "text",
+          "tableColumnId" : 18765332,
+          "width" : 220,
+          "cachedContents" : {
+            "largest" : "Y",
+            "non_null" : 156,
+            "null" : 0,
+            "top" : [ {
+              "item" : "N",
+              "count" : 20
+            }, {
+              "item" : "Y",
+              "count" : 19
+            } ],
+            "smallest" : "N"
+          },
+          "format" : { }
+        }, {
+          "id" : 278083896,
+          "name" : "Honey",
+          "dataTypeName" : "text",
+          "fieldName" : "honey",
+          "position" : 30,
+          "renderTypeName" : "text",
+          "tableColumnId" : 18765333,
+          "width" : 160,
+          "cachedContents" : {
+            "largest" : "Y",
+            "non_null" : 156,
+            "null" : 0,
+            "top" : [ {
+              "item" : "N",
+              "count" : 20
+            }, {
+              "item" : "Y",
+              "count" : 19
+            } ],
+            "smallest" : "N"
+          },
+          "format" : { }
+        }, {
+          "id" : 278083897,
+          "name" : "Jams",
+          "dataTypeName" : "text",
+          "fieldName" : "jams",
+          "position" : 31,
+          "renderTypeName" : "text",
+          "tableColumnId" : 18765334,
+          "width" : 148,
+          "cachedContents" : {
+            "largest" : "Y",
+            "non_null" : 156,
+            "null" : 0,
+            "top" : [ {
+              "item" : "N",
+              "count" : 20
+            }, {
+              "item" : "Y",
+              "count" : 19
+            } ],
+            "smallest" : "N"
+          },
+          "format" : { }
+        }, {
+          "id" : 278083898,
+          "name" : "Maple",
+          "dataTypeName" : "text",
+          "fieldName" : "maple",
+          "position" : 32,
+          "renderTypeName" : "text",
+          "tableColumnId" : 18765335,
+          "width" : 160,
+          "cachedContents" : {
+            "largest" : "Y",
+            "non_null" : 156,
+            "null" : 0,
+            "top" : [ {
+              "item" : "N",
+              "count" : 20
+            }, {
+              "item" : "Y",
+              "count" : 19
+            } ],
+            "smallest" : "N"
+          },
+          "format" : { }
+        }, {
+          "id" : 278083899,
+          "name" : "Meat",
+          "dataTypeName" : "text",
+          "fieldName" : "meat",
+          "position" : 33,
+          "renderTypeName" : "text",
+          "tableColumnId" : 18765336,
+          "width" : 148,
+          "cachedContents" : {
+            "largest" : "Y",
+            "non_null" : 156,
+            "null" : 0,
+            "top" : [ {
+              "item" : "N",
+              "count" : 20
+            }, {
+              "item" : "Y",
+              "count" : 19
+            } ],
+            "smallest" : "N"
+          },
+          "format" : { }
+        }, {
+          "id" : 278083900,
+          "name" : "Nursery",
+          "dataTypeName" : "text",
+          "fieldName" : "nursery",
+          "position" : 34,
+          "renderTypeName" : "text",
+          "tableColumnId" : 18765337,
+          "width" : 184,
+          "cachedContents" : {
+            "largest" : "Y",
+            "non_null" : 156,
+            "null" : 0,
+            "top" : [ {
+              "item" : "N",
+              "count" : 20
+            }, {
+              "item" : "Y",
+              "count" : 19
+            } ],
+            "smallest" : "N"
+          },
+          "format" : { }
+        }, {
+          "id" : 278083901,
+          "name" : "Nuts",
+          "dataTypeName" : "text",
+          "fieldName" : "nuts",
+          "position" : 35,
+          "renderTypeName" : "text",
+          "tableColumnId" : 18765338,
+          "width" : 148,
+          "cachedContents" : {
+            "largest" : "N",
+            "non_null" : 156,
+            "null" : 0,
+            "top" : [ {
+              "item" : "N",
+              "count" : 20
+            } ],
+            "smallest" : "N"
+          },
+          "format" : { }
+        }, {
+          "id" : 278083902,
+          "name" : "Plants",
+          "dataTypeName" : "text",
+          "fieldName" : "plants",
+          "position" : 36,
+          "renderTypeName" : "text",
+          "tableColumnId" : 18765339,
+          "width" : 172,
+          "cachedContents" : {
+            "largest" : "Y",
+            "non_null" : 156,
+            "null" : 0,
+            "top" : [ {
+              "item" : "N",
+              "count" : 20
+            }, {
+              "item" : "Y",
+              "count" : 19
+            } ],
+            "smallest" : "N"
+          },
+          "format" : { }
+        }, {
+          "id" : 278083903,
+          "name" : "Poultry",
+          "dataTypeName" : "text",
+          "fieldName" : "poultry",
+          "position" : 37,
+          "renderTypeName" : "text",
+          "tableColumnId" : 18765340,
+          "width" : 184,
+          "cachedContents" : {
+            "largest" : "Y",
+            "non_null" : 156,
+            "null" : 0,
+            "top" : [ {
+              "item" : "N",
+              "count" : 20
+            }, {
+              "item" : "Y",
+              "count" : 19
+            } ],
+            "smallest" : "N"
+          },
+          "format" : { }
+        }, {
+          "id" : 278083904,
+          "name" : "Prepared",
+          "dataTypeName" : "text",
+          "fieldName" : "prepared",
+          "position" : 38,
+          "renderTypeName" : "text",
+          "tableColumnId" : 18765341,
+          "width" : 196,
+          "cachedContents" : {
+            "largest" : "Y",
+            "non_null" : 156,
+            "null" : 0,
+            "top" : [ {
+              "item" : "N",
+              "count" : 20
+            }, {
+              "item" : "Y",
+              "count" : 19
+            } ],
+            "smallest" : "N"
+          },
+          "format" : { }
+        }, {
+          "id" : 278083905,
+          "name" : "Soap",
+          "dataTypeName" : "text",
+          "fieldName" : "soap",
+          "position" : 39,
+          "renderTypeName" : "text",
+          "tableColumnId" : 18765342,
+          "width" : 148,
+          "cachedContents" : {
+            "largest" : "Y",
+            "non_null" : 156,
+            "null" : 0,
+            "top" : [ {
+              "item" : "N",
+              "count" : 20
+            }, {
+              "item" : "Y",
+              "count" : 19
+            } ],
+            "smallest" : "N"
+          },
+          "format" : { }
+        }, {
+          "id" : 278083906,
+          "name" : "Trees",
+          "dataTypeName" : "text",
+          "fieldName" : "trees",
+          "position" : 40,
+          "renderTypeName" : "text",
+          "tableColumnId" : 18765343,
+          "width" : 160,
+          "cachedContents" : {
+            "largest" : "Y",
+            "non_null" : 156,
+            "null" : 0,
+            "top" : [ {
+              "item" : "N",
+              "count" : 20
+            }, {
+              "item" : "Y",
+              "count" : 19
+            } ],
+            "smallest" : "N"
+          },
+          "format" : { }
+        }, {
+          "id" : 278083907,
+          "name" : "Wine",
+          "dataTypeName" : "text",
+          "fieldName" : "wine",
+          "position" : 41,
+          "renderTypeName" : "text",
+          "tableColumnId" : 18765344,
+          "width" : 148,
+          "cachedContents" : {
+            "largest" : "Y",
+            "non_null" : 156,
+            "null" : 0,
+            "top" : [ {
+              "item" : "N",
+              "count" : 20
+            }, {
+              "item" : "Y",
+              "count" : 19
+            } ],
+            "smallest" : "N"
+          },
+          "format" : { }
+        }, {
+          "id" : 278083908,
+          "name" : "updateTime",
+          "dataTypeName" : "number",
+          "fieldName" : "updatetime",
+          "position" : 42,
+          "renderTypeName" : "number",
+          "tableColumnId" : 18765345,
+          "width" : 220,
+          "cachedContents" : {
+            "largest" : "41480.714467592596",
+            "non_null" : 149,
+            "average" : "14142.85483928349",
+            "null" : 7,
+            "top" : [ {
+              "item" : "2009",
+              "count" : 20
+            }, {
+              "item" : "2011",
+              "count" : 19
+            }, {
+              "item" : "41450.400636574072",
+              "count" : 18
+            }, {
+              "item" : "41456.535358796296",
+              "count" : 17
+            }, {
+              "item" : "41456.538553240738",
+              "count" : 16
+            }, {
+              "item" : "41449.604027777779",
+              "count" : 15
+            }, {
+              "item" : "41039.643587962964",
+              "count" : 14
+            }, {
+              "item" : "40956.595775462964",
+              "count" : 13
+            }, {
+              "item" : "41436.459664351853",
+              "count" : 12
+            } ],
+            "smallest" : "2009",
+            "sum" : "2107285.371053240746"
+          },
+          "format" : { }
+        }, {
+          "id" : 278083909,
+          "name" : "Location 1",
+          "dataTypeName" : "location",
+          "fieldName" : "location_1",
+          "position" : 43,
+          "renderTypeName" : "location",
+          "tableColumnId" : 18765346,
+          "width" : 220,
+          "cachedContents" : {
+            "largest" : {
+              "latitude" : "41.304941",
+              "human_address" : "{\"address\":\"corner of Park and South street\",\"city\":\"New Haven\",\"state\":\"Connecticut\",\"zip\":\"6511\"}",
+              "longitude" : "-72.936838"
+            },
+            "non_null" : 156,
+            "null" : 0,
+            "top" : [ {
+              "item" : {
+                "latitude" : "41.801455",
+                "human_address" : "{\"address\":\"4 S. Eagleville Road\",\"city\":\"Storrs\",\"state\":\"Connecticut\",\"zip\":\"6268\"}",
+                "longitude" : "-72.241802"
+              },
+              "count" : 20
+            }, {
+              "item" : {
+                "latitude" : "41.7683221",
+                "human_address" : "{\"address\":\"54 Warrenville Road\",\"city\":\"Mansfield Center\",\"state\":\"Connecticut\",\"zip\":\"6250\"}",
+                "longitude" : "-72.1961765"
+              },
+              "count" : 19
+            }, {
+              "item" : {
+                "latitude" : "41.1746060103178",
+                "human_address" : "{\"address\":\"Deluca Field at Main Street\",\"city\":\"Stratford\",\"state\":\"Connecticut\",\"zip\":\"6497\"}",
+                "longitude" : "-73.129374012351"
+              },
+              "count" : 18
+            }, {
+              "item" : {
+                "latitude" : "41.9858",
+                "human_address" : "{\"address\":\"Town Green, North Main and High Streets\",\"city\":\"Suffield\",\"state\":\"Connecticut\",\"zip\":\"6078\"}",
+                "longitude" : "-72.6501"
+              },
+              "count" : 17
+            }, {
+              "item" : {
+                "latitude" : "41.6827",
+                "human_address" : "{\"address\":\"21 Higbie Rd\",\"city\":\"Morris\",\"state\":\"Connecticut\",\"zip\":\"6763\"}",
+                "longitude" : "-73.181"
+              },
+              "count" : 16
+            }, {
+              "item" : {
+                "latitude" : "41.7044",
+                "human_address" : "{\"address\":\"Town Green at Main Street- Seth Thomas Park\",\"city\":\"Thomaston\",\"state\":\"Connecticut\",\"zip\":\"6787\"}",
+                "longitude" : "-73.1035"
+              },
+              "count" : 15
+            }, {
+              "item" : {
+                "latitude" : "41.8728",
+                "human_address" : "{\"address\":\"Tolland Green\",\"city\":\"Tolland\",\"state\":\"Connecticut\",\"zip\":\"6084\"}",
+                "longitude" : "-72.3695"
+              },
+              "count" : 14
+            }, {
+              "item" : {
+                "latitude" : "41.8147",
+                "human_address" : "{\"address\":\"Staples Plaza, South Main Street\",\"city\":\"Torrington\",\"state\":\"Connecticut\",\"zip\":\"6790\"}",
+                "longitude" : "-73.1154"
+              },
+              "count" : 13
+            }, {
+              "item" : {
+                "latitude" : "41.2525",
+                "human_address" : "{\"address\":\"Long Hill Green, Main Street\",\"city\":\"Trumbull\",\"state\":\"Connecticut\",\"zip\":\"6611\"}",
+                "longitude" : "-73.2099"
+              },
+              "count" : 12
+            }, {
+              "item" : {
+                "latitude" : "41.316",
+                "human_address" : "{\"address\":\"1010 State St\",\"city\":\"New Haven\",\"state\":\"Connecticut\",\"zip\":\"6511\"}",
+                "longitude" : "-72.9093"
+              },
+              "count" : 11
+            }, {
+              "item" : {
+                "latitude" : "41.680233",
+                "human_address" : "{\"address\":\"225 Oak St.\",\"city\":\"New Britain\",\"state\":\"Connecticut\",\"zip\":\"6051\"}",
+                "longitude" : "-72.775549"
+              },
+              "count" : 10
+            }, {
+              "item" : {
+                "latitude" : "41.2015",
+                "human_address" : "{\"address\":\"120 Bridgeport Ave.\",\"city\":\"Milford\",\"state\":\"Connecticut\",\"zip\":\"6460\"}",
+                "longitude" : "-73.1043"
+              },
+              "count" : 9
+            }, {
+              "item" : {
+                "latitude" : "41.5736",
+                "human_address" : "{\"address\":\"195 Main Street (Route 138)\",\"city\":\"Voluntown\",\"state\":\"Connecticut\",\"zip\":\"6384\"}",
+                "longitude" : "-71.8659"
+              },
+              "count" : 8
+            }, {
+              "item" : {
+                "latitude" : "41.457",
+                "human_address" : "{\"address\":\"Railroad Station Green\",\"city\":\"Wallingford\",\"state\":\"Connecticut\",\"zip\":\"6492\"}",
+                "longitude" : "-72.8233"
+              },
+              "count" : 7
+            }, {
+              "item" : {
+                "latitude" : "41.6397",
+                "human_address" : "{\"address\":\"Washington Senior Center, 6 Bryan Hall Plz\",\"city\":\"Washington Depot\",\"state\":\"Connecticut\",\"zip\":\"\"}",
+                "longitude" : "-73.3205"
+              },
+              "count" : 6
+            }, {
+              "item" : {
+                "latitude" : "41.569015",
+                "human_address" : "{\"address\":\"Fulton Park Greenhouse\",\"city\":\"Waterbury\",\"state\":\"Connecticut\",\"zip\":\"\"}",
+                "longitude" : "-73.037752"
+              },
+              "count" : 5
+            }, {
+              "item" : {
+                "latitude" : "41.5544",
+                "human_address" : "{\"address\":\"Brass City Mall, West Parking Lot\",\"city\":\"Waterbury\",\"state\":\"Connecticut\",\"zip\":\"\"}",
+                "longitude" : "-73.0433"
+              },
+              "count" : 4
+            }, {
+              "item" : {
+                "latitude" : "41.5401",
+                "human_address" : "{\"address\":\"Sylvan Avenue\",\"city\":\"Waterbury\",\"state\":\"Connecticut\",\"zip\":\"\"}",
+                "longitude" : "-73.0279"
+              },
+              "count" : 3
+            }, {
+              "item" : {
+                "latitude" : "41.5866",
+                "human_address" : "{\"address\":\"Downtown Green, Main Street\",\"city\":\"Waterbury\",\"state\":\"Connecticut\",\"zip\":\"6702\"}",
+                "longitude" : "-73.0835"
+              },
+              "count" : 2
+            }, {
+              "item" : {
+                "latitude" : "41.34297",
+                "human_address" : "{\"address\":\"15 Rope Ferry Road\",\"city\":\"Waterford\",\"state\":\"Connecticut\",\"zip\":\"6385\"}",
+                "longitude" : "-72.13149"
+              },
+              "count" : 1
+            } ],
+            "smallest" : {
+              "latitude" : "41.4881",
+              "human_address" : "{\"address\":\"#1 Route 164\",\"city\":\"Preston\",\"state\":\"Connecticut\",\"zip\":\"\"}",
+              "longitude" : "-71.9841"
+            }
+          },
+          "format" : { },
+          "subColumnTypes" : [ "human_address", "latitude", "longitude", "machine_address", "needs_recoding" ]
+        } ],
+        "grants" : [ {
+          "inherited" : false,
+          "type" : "viewer",
+          "flags" : [ "public" ]
+        } ],
+        "license" : {
+          "name" : "Public Domain"
+        },
+        "metadata" : {
+          "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+          "renderTypeConfig" : {
+            "visible" : {
+              "table" : true
+            }
+          }
+        },
+        "owner" : {
+          "id" : "cvy9-n6sb",
+          "displayName" : "Tyler Kleykamp",
+          "screenName" : "Tyler Kleykamp",
+          "type" : "interactive",
+          "flags" : [ "mayBeStoriesCoOwner" ]
+        },
+        "query" : { },
+        "rights" : [ "read" ],
+        "tableAuthor" : {
+          "id" : "cvy9-n6sb",
+          "displayName" : "Tyler Kleykamp",
+          "screenName" : "Tyler Kleykamp",
+          "type" : "interactive",
+          "flags" : [ "mayBeStoriesCoOwner" ]
+        },
+        "tags" : [ "farmers", "markets", "agriculture" ],
+        "flags" : [ "default", "restorable", "restorePossibleForType" ]
+      }
+    },
+    "data" : [ [ 1, "38860420-EAF6-4F37-8141-4623C270AFF8", 1, 1395407744, "875279", 1395407744, "875279", "{\n}", "1007501", "ASHFORD FARMERS’ MARKET", [ null, null ], "Windham", null, null, null, null, null, null, null, null, "-72.164599999999993", "41.866300000000003", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "2009", [ "{\"address\":\"Pompey Hollow Park, across from the Town Hall\",\"city\":\"Ashford\",\"state\":\"Connecticut\",\"zip\":\"\"}", "41.866300000000003", "-72.164599999999993", null, false ] ]
+  , [ 2, "7AC7E69C-A9B9-4084-8528-BEA4D514AC9C", 2, 1395407744, "875279", 1395407744, "875279", "{\n}", "1007515", "BERLIN FARMERS’ MARKET", [ null, null ], "Hartford", null, null, null, null, null, null, null, null, "-72.772499999999994", "41.613900000000001", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "40956.593159722222", [ "{\"address\":\"Veterans Memorial Park\",\"city\":\"Berlin\",\"state\":\"Connecticut\",\"zip\":\"\"}", "41.613900000000001", "-72.772499999999994", null, false ] ]
+  , [ 3, "A5D85254-55E7-4BF4-BF97-BF022870BB13", 3, 1395407744, "875279", 1395407744, "875279", "{\n}", "1005277", "BethanyFarmersMarket", [ "http://www.bethanyfarmersmarket.com", null ], "New Haven", "June to October", "Sat:9:00 AM - 1:00 PM;", null, null, null, null, null, null, "-72.991190000000003", "41.44012", "Local government building grounds", "Y", "Y", "N", "Y", "N", "Y", "Y", "Y", "N", "Y", "N", "Y", "Y", "Y", "Y", "Y", "N", "Y", "N", "N", "N", "Y", "Y", "N", "N", "41030.502268518518", [ "{\"address\":\"Route 63\",\"city\":\"Bethany\",\"state\":\"Connecticut\",\"zip\":\"6524\"}", "41.44012", "-72.991190000000003", null, false ] ]
+  , [ 4, "0DFEFB10-3ADC-411F-8DDE-A098982D133D", 4, 1395407744, "875279", 1395407744, "875279", "{\n}", "1007462", "Bethel Farmers Market", [ null, null ], "Fairfield", null, null, null, null, null, null, null, null, "-73.383799999999994", "41.414900000000003", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "2009", [ "{\"address\":\"Rte 6, Bethel &amp; Fairfield County Ext Service Bldg.\",\"city\":\"Bethel\",\"state\":\"Connecticut\",\"zip\":\"6801\"}", "41.414900000000003", "-73.383799999999994", null, false ] ]
+  , [ 5, "9D11DB20-D605-4A7E-BC2B-5D063A69D3B8", 5, 1395407744, "875279", 1395407744, "875279", "{\n}", "1007473", "Bloomfield Farmers Market", [ null, null ], "Hartford", null, null, null, null, null, null, null, null, "-72.736999999999995", "41.829900000000002", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "2009", [ "{\"address\":\"Bloomfield Town Hall, 800 Bloomfield Avenue\",\"city\":\"Bloomfield\",\"state\":\"Connecticut\",\"zip\":\"\"}", "41.829900000000002", "-72.736999999999995", null, false ] ]
+  , [ 6, "6FD95537-7EBE-4FB0-BA10-621875C35B1B", 6, 1395407744, "875279", 1395407744, "875279", "{\n}", "1000162", "Bozrah Farmers Market", [ "http://www.bozrahfarmersmarket.org", null ], "New London", "07/05/2013 to 10/11/2013", "Fri: 4:00 PM-7:00 PM;", null, null, null, null, null, null, "-72.168330999999995", "41.552173000000003", "Other", "Y", "Y", "N", "Y", "N", "Y", "Y", "Y", "Y", "Y", "Y", "N", "Y", "Y", "Y", "Y", "Y", "N", "N", "Y", "Y", "Y", "Y", "Y", "N", "41445.53329861111", [ "{\"address\":\"45 Bozrah Street\",\"city\":\"Bozrah\",\"state\":\"Connecticut\",\"zip\":\"6334\"}", "41.552173000000003", "-72.168330999999995", null, false ] ]
+  , [ 7, "7D30C5DE-3622-4739-91E6-855516C79D6D", 7, 1395407744, "875279", 1395407744, "875279", "{\n}", "1007463", "Bridgeport Farmers Market I", [ null, null ], "Fairfield", null, null, null, null, null, null, null, null, "-73.2", "41.176499999999997", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "2009", [ "{\"address\":\"Baldwin Plaza\",\"city\":\"Bridgeport\",\"state\":\"Connecticut\",\"zip\":\"6604\"}", "41.176499999999997", "-73.2", null, false ] ]
+  , [ 8, "37457FAC-587B-4FEE-87C9-1F20DC458A9D", 8, 1395407744, "875279", 1395407744, "875279", "{\n}", "1007502", "Bristol - Housing Authority Farmers’ Market", [ null, null ], "Hartford", null, null, null, null, null, null, null, null, "-72.927300000000002", "41.694000000000003", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "2011", [ "{\"address\":\"31 Quaker Lane\",\"city\":\"Bristol\",\"state\":\"Connecticut\",\"zip\":\"\"}", "41.694000000000003", "-72.927300000000002", null, false ] ]
+  , [ 9, "99EC25D3-14A0-4FE8-99A9-45379C4BD9AE", 9, 1395407744, "875279", 1395407744, "875279", "{\n}", "1007474", "Bristol Farmers Market", [ null, null ], "Hartford", null, null, null, null, null, null, null, null, "-72.945300000000003", "41.673000000000002", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "2009", [ "{\"address\":\"Old Bristol Centre Mall, 100 N. Main St.\",\"city\":\"Bristol\",\"state\":\"Connecticut\",\"zip\":\"\"}", "41.673000000000002", "-72.945300000000003", null, false ] ]
+  , [ 10, "D44AA4EA-C703-4B92-BC65-6A0060990D60", 10, 1395407744, "875279", 1395407744, "875279", "{\n}", "1007767", "Brooklyn FM", [ "http://www.nectfarmersmarket.org", null ], "Windham County", null, null, null, null, null, null, null, null, "-71.95", "41.788200000000003", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "2011", [ "{\"address\":\"Job Lot parking lot, Route 6\",\"city\":\"Brooklyn\",\"state\":\"Connecticut\",\"zip\":\"\"}", "41.788200000000003", "-71.95", null, false ] ]
+  , [ 11, "319D12FE-649B-4815-8892-AF2FBC985762", 11, 1395407744, "875279", 1395407744, "875279", "{\n}", "1007475", "Burlington Farmers Market", [ null, null ], "Hartford", null, null, null, null, null, null, null, null, "-72.967100000000002", "41.768900000000002", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "2009", [ "{\"address\":\"Burlington Congregational Church\",\"city\":\"Burlington\",\"state\":\"Connecticut\",\"zip\":\"6013\"}", "41.768900000000002", "-72.967100000000002", null, false ] ]
+  , [ 12, "1EADF2F8-29C7-47EE-A381-AAE7FEE6EC29", 12, 1395407744, "875279", 1395407744, "875279", "{\n}", "1007743", "CANTERBURY FARMERS’ MARKET", [ "http://www.josiesgeneralstore.com", null ], "New London", null, null, null, null, null, null, null, null, "-71.958799999999997", "41.643099999999997", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "2009", [ "{\"address\":\"Josie's General Store, 195 Butts Bridge Road\",\"city\":\"Canterbury\",\"state\":\"Connecticut\",\"zip\":\"\"}", "41.643099999999997", "-71.958799999999997", null, false ] ]
+  , [ 13, "D32C9B31-35A3-4570-9F18-4707F16AF9C2", 13, 1395407744, "875279", 1395407744, "875279", "{\n}", "1007674", "Chester Sunday Farmers’ Market", [ "http://www.chestersundaymarket.com", null ], "Middlesex", null, null, null, null, null, null, null, null, "-72.450199999999995", "41.402799999999999", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "2011", [ "{\"address\":\"23 Main Street\",\"city\":\"Chester\",\"state\":\"Connecticut\",\"zip\":\"6412\"}", "41.402799999999999", "-72.450199999999995", null, false ] ]
+  , [ 14, "F945B153-22BB-484F-9DB1-03009E8643DC", 14, 1395407744, "875279", 1395407744, "875279", "{\n}", "20053", "City Farmers' Market Fair Haven", [ "http://www.cityseed.org/", null ], null, null, null, null, null, null, null, null, null, "-72.888800000000003", "41.3093", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "Y", "N", "N", "N", "N", null, [ "{\"address\":\"Quinnipiac River Park, corner of Grand Ave and Front St\",\"city\":\"New Haven\",\"state\":\"Connecticut\",\"zip\":\"6513\"}", "41.3093", "-72.888800000000003", null, false ] ]
+  , [ 15, "0180ACE6-6E88-4BB5-8EDC-CB1919D478ED", 15, 1395407744, "875279", 1395407744, "875279", "{\n}", "1005940", "CitySeed Edgewood Park Farmers Market", [ "http://www.cityseed.org/edgewood-park", null ], "New Haven", "05/05/2013 to 12/22/2013", "Sun: 10:00 AM-2:00 PM;", null, null, null, null, null, null, "-72.958466999999999", "41.325135000000003", "Other", "Y", "Y", "Y", "Y", "Y", "N", "N", "N", "N", "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "41454.987222222226", [ "{\"address\":\"Whalley Ave. and West Rock Ave.\",\"city\":\"New Haven\",\"state\":\"Connecticut\",\"zip\":\"6515\"}", "41.325135000000003", "-72.958466999999999", null, false ] ]
+  , [ 16, "E143905B-9D9A-49BB-A350-420800743363", 16, 1395407744, "875279", 1395407744, "875279", "{\n}", "1005941", "CitySeed Fair Haven Farmers Market", [ "http://www.cityseed.org/fair-haven", null ], "New Haven", "07/11/2013 to 10/31/2013", "Thu: 2:00 PM-6:00 PM;", null, null, null, null, null, null, "-72.897052299999999", "41.308888000000003", "Other", "Y", "Y", "Y", "Y", "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "41454.989074074074", [ "{\"address\":\"Corner of Grand Avenue and Poplar Street\",\"city\":\"New Haven\",\"state\":\"Connecticut\",\"zip\":\"6513\"}", "41.308888000000003", "-72.897052299999999", null, false ] ]
+  , [ 17, "46D1ACD1-7A8B-48A0-9E94-F1F097D39343", 17, 1395407744, "875279", 1395407744, "875279", "{\n}", "1005942", "CitySeed Hill Farmers Market", [ "http://www.cityseed.org/the-hill-market", null ], "New Haven", "07/12/2013 to 10/25/2013", "Fri: 11:00 AM-2:00 PM;", null, null, null, null, null, null, "-72.936837999999995", "41.304940999999999", "Federal/State government building grounds", "Y", "Y", "Y", "Y", "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "41454.988182870373", [ "{\"address\":\"corner of Park and South street\",\"city\":\"New Haven\",\"state\":\"Connecticut\",\"zip\":\"6511\"}", "41.304940999999999", "-72.936837999999995", null, false ] ]
+  , [ 18, "CB8AE68D-AD29-45D9-98A8-10FA4E21EF60", 18, 1395407744, "875279", 1395407744, "875279", "{\n}", "1005943", "CitySeed Wooster Square Farmers Market", [ "http://www.cityseed.org/wooster-square", null ], "New Haven", "05/05/2013 to", "Sat: 9:00 AM-1:00 PM;", null, null, null, null, null, null, "-72.917848000000006", "41.303232000000001", "Other", "Y", "Y", "Y", "Y", "Y", "N", "N", "N", "N", "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "41454.977534722224", [ "{\"address\":\"DePalma Ct. between Chapel St. and Wooster St.\",\"city\":\"New Haven\",\"state\":\"Connecticut\",\"zip\":\"6511\"}", "41.303232000000001", "-72.917848000000006", null, false ] ]
+  , [ 19, "E7D0F173-73AB-477A-9DBE-101D4D1F8D73", 19, 1395407744, "875279", 1395407744, "875279", "{\n}", "1007481", "CLINTON - CHAMARD VINEYARDS FARMERS’ MARKET", [ null, null ], "Middlesex", null, null, null, null, null, null, null, null, "-72.543400000000005", "41.302300000000002", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "2009", [ "{\"address\":\"Chamard Vineyards, 115 Cow Hill Road\",\"city\":\"Clinton\",\"state\":\"Connecticut\",\"zip\":\"\"}", "41.302300000000002", "-72.543400000000005", null, false ] ]
+  , [ 20, "64D809C2-D0F7-4818-B897-E6856250F405", 20, 1395407744, "875279", 1395407744, "875279", "{\n}", "1007496", "CLINTON FARMERS’ MARKET", [ null, null ], "Middlesex", null, null, null, null, null, null, null, null, "-72.523799999999994", "41.278100000000002", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "2009", [ "{\"address\":\"48 Main Street\",\"city\":\"Clinton\",\"state\":\"Connecticut\",\"zip\":\"\"}", "41.278100000000002", "-72.523799999999994", null, false ] ]
+  , [ 21, "21D0F1B5-7E23-46E3-BA88-593EF4608131", 21, 1395407744, "875279", 1395407744, "875279", "{\n}", "1007503", "Colchester Farmers’ Market", [ null, null ], "New London", null, null, null, null, null, null, null, null, "-72.324100000000001", "41.567999999999998", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "2011", [ "{\"address\":\"395 South Main Street\",\"city\":\"Colchester\",\"state\":\"Connecticut\",\"zip\":\"\"}", "41.567999999999998", "-72.324100000000001", null, false ] ]
+  , [ 22, "050DDB0E-8A97-4CA9-86CD-BD10350F8579", 22, 1395407744, "875279", 1395407744, "875279", "{\n}", "1001290", "Collinsville Farmers Market", [ "http://www.collinsvillefarmersmarket.org", null ], "Hartford", "06/09/2013 to 10/20/2013", "Sun: 10:00 AM-1:00 PM;", null, null, null, null, null, null, "-72.923058999999995", "41.811095999999999", null, "Y", "Y", "Y", "N", "Y", "Y", "Y", "Y", "Y", "Y", "N", "Y", "Y", "Y", "Y", "Y", "Y", "N", "N", "Y", "N", "N", "Y", "Y", "N", "41435.523252314815", [ "{\"address\":\"4 Market Street\",\"city\":\"Collinsville\",\"state\":\"Connecticut\",\"zip\":\"6019\"}", "41.811095999999999", "-72.923058999999995", null, false ] ]
+  , [ 23, "44666E78-EC29-41D3-A237-B8A241075F0D", 23, 1395407744, "875279", 1395407744, "875279", "{\n}", "1007442", "CORNWALL FARMERS’ MARKET", [ null, null ], "Litchfield", null, null, null, null, null, null, null, null, "-73.357699999999994", "41.873399999999997", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "2009", [ "{\"address\":\"413 Route 128, Near Covered Bridge\",\"city\":\"Cornwall\",\"state\":\"Connecticut\",\"zip\":\"\"}", "41.873399999999997", "-73.357699999999994", null, false ] ]
+  , [ 24, "97B9260A-8109-4134-A1F8-6F92AE6810B6", 24, 1395407744, "875279", 1395407744, "875279", "{\n}", "1007304", "Coventry Regional Farmers' Market", [ "http://www.coventryfarmersmarket.com", null ], "Tolland", "06/01/2013 to 10/27/2013", "Sun: 11:00 AM-2:00 PM;", null, null, null, null, null, null, "-72.345699999999994", "41.764099999999999", "Other", "Y", "Y", "N", "N", "N", "Y", "Y", "Y", "Y", "Y", "Y", "Y", "Y", "Y", "Y", "Y", "Y", "N", "N", "Y", "Y", "Y", "Y", "N", "Y", "41437.447083333333", [ "{\"address\":\"2299 South St\",\"city\":\"Coventry\",\"state\":\"Connecticut\",\"zip\":\"6238\"}", "41.764099999999999", "-72.345699999999994", null, false ] ]
+  , [ 25, "90FA9146-1461-4FDA-A02D-E59A3187E791", 25, 1395407744, "875279", 1395407744, "875279", "{\n}", "1007504", "Cromwell Farmers’ Market", [ null, null ], "Middlesex", null, null, null, null, null, null, null, null, "-72.662899999999993", "41.600499999999997", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "2011", [ "{\"address\":\"52 Missionary Road\",\"city\":\"Cromwell\",\"state\":\"Connecticut\",\"zip\":\"6416\"}", "41.600499999999997", "-72.662899999999993", null, false ] ]
+  , [ 26, "124A5179-9AC7-4C8F-B14B-59D9E4822F9F", 26, 1395407744, "875279", 1395407744, "875279", "{\n}", "1004516", "Danbury Farmers' Market", [ "http://www.citycenterdanbury.com", null ], "Fairfield", "06/28/2013 to 10/25/2013", "Fri: 11:30 AM-5:30 PM;", null, null, null, null, null, null, "-73.455371", "41.396242000000001", "Other", "Y", "Y", "Y", "Y", "Y", "Y", "N", "Y", "Y", "N", "Y", "Y", "Y", "Y", "Y", "Y", "N", "N", "N", "Y", "N", "Y", "N", "N", "N", "41435.547743055555", [ "{\"address\":\"Kennedy Avenue\",\"city\":\"Danbury\",\"state\":\"Connecticut\",\"zip\":\"6810\"}", "41.396242000000001", "-73.455371", null, false ] ]
+  , [ 27, "01CE8769-B4E0-4FE2-9764-04F82F4B61CE", 27, 1395407744, "875279", 1395407744, "875279", "{\n}", "1007766", "Danielson Farmers Market", [ "http://www.nectfarmersmarket.org", null ], "Windham", null, null, null, null, null, null, null, null, "-71.877600000000001", "41.809100000000001", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "2009", [ "{\"address\":\"Killingly Memorial Library, 25 Westcott Road\",\"city\":\"Danielson\",\"state\":\"Connecticut\",\"zip\":\"6239\"}", "41.809100000000001", "-71.877600000000001", null, false ] ]
+  , [ 28, "8690A669-E9E2-41D6-93CC-B568878F4C40", 28, 1395407744, "875279", 1395407744, "875279", "{\n}", "1007703", "Darien Farmers Market", [ "http://www.darienfarmersmarket.net", null ], "Fairfield", null, null, null, null, null, null, null, null, "-73.482799999999997", "41.075299999999999", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "2009", [ "{\"address\":\"Mechanic Street, Behind Fire House\",\"city\":\"Darien\",\"state\":\"Connecticut\",\"zip\":\"6810\"}", "41.075299999999999", "-73.482799999999997", null, false ] ]
+  , [ 29, "D3064B89-20F5-47EF-B31D-2F8D7EAD4B9A", 29, 1395407744, "875279", 1395407744, "875279", "{\n}", "1007817", "DEEP RIVER - LACE FACTORY FARMERS’ MARKET", [ "http://www.thelacefactory.com", null ], "Middlesex", null, null, null, null, null, null, null, null, "-72.427499999999995", "41.393000000000001", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "2009", [ "{\"address\":\"161 River Street\",\"city\":\"Deep River\",\"state\":\"Connecticut\",\"zip\":\"\"}", "41.393000000000001", "-72.427499999999995", null, false ] ]
+  , [ 30, "4C7D6548-4478-4026-AA20-54E7A8E3E07D", 30, 1395407744, "875279", 1395407744, "875279", "{\n}", "1007458", "Deep River Farmers Market", [ null, null ], "Middlesex", null, null, null, null, null, null, null, null, "-72.436000000000007", "41.386800000000001", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "2009", [ "{\"address\":\"The Stone House, 245 Main Street\",\"city\":\"Deep River\",\"state\":\"Connecticut\",\"zip\":\"6417\"}", "41.386800000000001", "-72.436000000000007", null, false ] ]
+  , [ 31, "C1ED9EA7-E4F5-44B3-BE8A-EE223BD5DACE", 31, 1395407744, "875279", 1395407744, "875279", "{\n}", "1007248", "Downtown Bridgeport Farmers Market", [ "http://www.infobridgeport.com", null ], "Fairfield", "July to September", null, null, null, null, null, null, null, "-73.188900000000004", "41.177300000000002", "Closed-off public street", "Y", "Y", "Y", "N", "Y", "Y", "Y", "N", "Y", "N", "Y", "Y", "Y", "N", "N", "N", "Y", "N", "N", "Y", "N", "N", "N", "N", "N", "40695.424583333333", [ "{\"address\":\"Bank Street\",\"city\":\"Bridgeport\",\"state\":\"Connecticut\",\"zip\":\"6604\"}", "41.177300000000002", "-73.188900000000004", null, false ] ]
+  , [ 32, "38098CA2-8653-4B39-96C2-1BAF3AE44125", 32, 1395407744, "875279", 1395407744, "875279", "{\n}", "1004646", "Durham Farmers' Market", [ "http://www.durhamfarmersmarket.org", null ], "Middlesex", "May to September", "Thu:3:00 PM - 6:30 PM;", null, null, null, null, null, null, "-72.680570000000003", "41.47043", "Local government building grounds", "Y", "Y", "N", "Y", "N", "Y", "Y", "Y", "Y", "Y", "Y", "Y", "Y", "Y", "Y", "Y", "Y", "N", "N", "Y", "N", "Y", "Y", "N", "N", "41029.547199074077", [ "{\"address\":\"Town House Road\",\"city\":\"Durham\",\"state\":\"Connecticut\",\"zip\":\"6422\"}", "41.47043", "-72.680570000000003", null, false ] ]
+  , [ 33, "D3FF2660-A7D7-420E-9E37-40FA805A4E9F", 33, 1395407744, "875279", 1395407744, "875279", "{\n}", "1007709", "East Granby Farmers’ Market", [ null, null ], "Hartford", null, null, null, null, null, null, null, null, "-72.726399999999998", "41.943100000000001", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "2011", [ "{\"address\":\"3 Turkey Hills Road\",\"city\":\"East Granby\",\"state\":\"Connecticut\",\"zip\":\"\"}", "41.943100000000001", "-72.726399999999998", null, false ] ]
+  , [ 34, "E6D1BF6C-B8ED-49F6-BA0C-9564C610138A", 34, 1395407744, "875279", 1395407744, "875279", "{\n}", "1007459", "East Hartford Farmers Market", [ null, null ], "Hartford", null, null, null, null, null, null, null, null, "-72.520899999999997", "41.771000000000001", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "2009", [ "{\"address\":\"840 Main Street, Raymond Memorial Library\",\"city\":\"Manchester\",\"state\":\"Connecticut\",\"zip\":\"6040\"}", "41.771000000000001", "-72.520899999999997", null, false ] ]
+  , [ 35, "F57E49F6-BF05-4190-8196-51E05A1729E2", 35, 1395407744, "875279", 1395407744, "875279", "{\n}", "1007482", "EAST HAVEN FARMERS’ MARKET", [ null, null ], "Middlesex", null, null, null, null, null, null, null, null, "-72.871700000000004", "41.277700000000003", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "2009", [ "{\"address\":\"East Haven Town Hall\",\"city\":\"East Haven\",\"state\":\"Connecticut\",\"zip\":\"\"}", "41.277700000000003", "-72.871700000000004", null, false ] ]
+  , [ 36, "40D810A4-4FF2-4589-A2F9-978DFD95449F", 36, 1395407744, "875279", 1395407744, "875279", "{\n}", "1007516", "EAST WINDSOR FARMERS’ MARKET", [ null, null ], "Hartford", null, null, null, null, null, null, null, null, "-72.732900000000001", "41.806399999999996", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "40956.594224537039", [ "{\"address\":\"Revay's Garden Center, 266 North Road\",\"city\":\"East Windsor\",\"state\":\"Connecticut\",\"zip\":\"6016\"}", "41.806399999999996", "-72.732900000000001", null, false ] ]
+  , [ 37, "DAA0658C-6ED4-4E1E-BE34-22FC8BD5B8B8", 37, 1395407744, "875279", 1395407744, "875279", "{\n}", "1001926", "Ellington Farmers Market", [ "http://www.ellingtonfarmersmarket.com", null ], "Tolland", null, "Sat: 9:00 AM-12:00 PM;", null, null, null, null, null, null, "-72.465202099999999", "41.903280600000002", "Local government building grounds", "Y", "Y", "N", "Y", "Y", "Y", "Y", "Y", "Y", "Y", "Y", "Y", "Y", "Y", "Y", "Y", "Y", "N", "N", "Y", "Y", "Y", "Y", "Y", "N", "41437.591585648152", [ "{\"address\":\"Main St, Arbor Park\",\"city\":\"Ellington\",\"state\":\"Connecticut\",\"zip\":\"6029\"}", "41.903280600000002", "-72.465202099999999", null, false ] ]
+  , [ 38, "E18E326D-082B-436F-B030-FCE66373F205", 38, 1395407744, "875279", 1395407744, "875279", "{\n}", "1007487", "ENFIELD FARMERS’ MARKET", [ null, null ], "Hartford", null, null, null, null, null, null, null, null, "-72.574363708495994", "41.998348236083999", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "2009", [ "{\"address\":\"Enfield Town Green, Town Hall, Rte. 5\",\"city\":\"Enfield\",\"state\":\"Connecticut\",\"zip\":\"\"}", "41.998348236083999", "-72.574363708495994", null, false ] ]
+  , [ 39, "76692187-45EE-4A8A-AC20-B6116892A505", 39, 1395407744, "875279", 1395407744, "875279", "{\n}", "1007457", "Essex Farmers Market", [ null, null ], "Middlesex", null, null, null, null, null, null, null, null, "-72.399000000000001", "41.354300000000002", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "2009", [ "{\"address\":\"On the Green, Main Street\",\"city\":\"Essex\",\"state\":\"Connecticut\",\"zip\":\"6426\"}", "41.354300000000002", "-72.399000000000001", null, false ] ]
+  , [ 40, "D32A0A5F-7B9E-470F-B89D-694D478A633B", 40, 1395407744, "875279", 1395407744, "875279", "{\n}", "1008723", "Farmers Market at Billings Forge", [ "http://www.billingsforgeworks.org/farmers-market", null ], "Hartford", "06/06/2013 to 10/31/2013", "Thu: 11:00 AM-2:00 PM;", "11/07/2013 to 05/29/2014", "Thu: 11:00 AM-2:00 PM;", null, null, null, null, "-72.687129999999996", "41.762532999999998", "Other", "Y", "Y", "N", "Y", "Y", "Y", "Y", "Y", "N", "Y", "N", "Y", "Y", "Y", "Y", "Y", "Y", "N", "N", "Y", "N", "Y", "Y", "N", "N", "41453.074537037035", [ "{\"address\":\"539 Broad Street\",\"city\":\"Hartford\",\"state\":\"Connecticut\",\"zip\":\"6106\"}", "41.762532999999998", "-72.687129999999996", null, false ] ]
+  , [ 41, "40D37CCA-01CA-4F8D-8A48-E6A09697BBB9", 41, 1395407744, "875279", 1395407744, "875279", "{\n}", "1002793", "Farmers Market at Norfield Grange", [ "http://www.wintermarket-ct.com", null ], "Fairfield", "11/23/2013 to 04/19/2014", "Sat: 10:00 AM-2:00 PM;", null, null, null, null, null, null, "-73.367920999999996", "41.185507999999999", "Other", "Y", "N", "N", "N", "N", "Y", "Y", "Y", "Y", "Y", "Y", "Y", "Y", "Y", "Y", "Y", "Y", "N", "N", "Y", "Y", "Y", "Y", "Y", "N", "41466.563819444447", [ "{\"address\":\"12 Good Hill Road\",\"city\":\"Weston\",\"state\":\"Connecticut\",\"zip\":\"6883\"}", "41.185507999999999", "-73.367920999999996", null, false ] ]
+  , [ 42, "5D509150-DF01-434E-94B8-D8024D247E4F", 42, 1395407744, "875279", 1395407744, "875279", "{\n}", "1007866", "Georgetown Farmers Market", [ null, null ], "Fairfield", null, null, null, null, null, null, null, null, "-73.427800000000005", "41.256599999999999", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "2009", [ "{\"address\":\"Intersection of Main Street-Georgetown &amp; Rte 57\",\"city\":\"Georgetown\",\"state\":\"Connecticut\",\"zip\":\"6829\"}", "41.256599999999999", "-73.427800000000005", null, false ] ]
+  , [ 43, "70776EBF-1CDC-431F-8B3B-1CF627246B55", 43, 1395407744, "875279", 1395407744, "875279", "{\n}", "1005596", "Greenfield Farmers Market", [ null, null ], "Fairfield", "June to October", "Sat:12:30 pm - 4:00 pm;", null, null, null, null, null, null, "-73.284400000000005", "41.161700000000003", "Private business parking lot", "Y", "N", "N", "N", "N", "Y", "Y", "N", "Y", "N", "N", "Y", "Y", "Y", "N", "N", "N", "N", "N", "Y", "N", "N", "Y", "N", "N", "40670.617094907408", [ "{\"address\":\"75 Hillside Road\",\"city\":\"Fairfield\",\"state\":\"Connecticut\",\"zip\":\"6824\"}", "41.161700000000003", "-73.284400000000005", null, false ] ]
+  , [ 44, "8444F5AF-D3E9-489A-A380-75876FE5A737", 44, 1395407744, "875279", 1395407744, "875279", "{\n}", "1007464", "Greenwich Farmers Market", [ null, null ], "Fairfield", null, null, null, null, null, null, null, null, "-73.628200000000007", "41.035499999999999", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "2009", [ "{\"address\":\"Town Hall parking lot, Field Point Road\",\"city\":\"Greenwich\",\"state\":\"Connecticut\",\"zip\":\"6830\"}", "41.035499999999999", "-73.628200000000007", null, false ] ]
+  , [ 45, "15A1C3B2-3BE0-4B77-8F6E-8866AA288766", 45, 1395407744, "875279", 1395407744, "875279", "{\n}", "1007465", "Groton Farmers Market", [ null, null ], "New London", null, null, null, null, null, null, null, null, "-72.051699999999997", "41.348799999999997", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "2009", [ "{\"address\":\"Groton Shopping Plaza\",\"city\":\"Groton\",\"state\":\"Connecticut\",\"zip\":\"6340\"}", "41.348799999999997", "-72.051699999999997", null, false ] ]
+  , [ 46, "127ED9A1-3347-4B07-8F8F-FAABEB6082AE", 46, 1395407744, "875279", 1395407744, "875279", "{\n}", "1007733", "HAMDEN - DOWNTOWN FARMERS’ MARKET", [ "http://www.hamden.com", null ], "New Haven", null, null, null, null, null, null, null, null, "-72.911299999999997", "41.381799999999998", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "2009", [ "{\"address\":\"Town Center Park, 2663 Dixwell Avenue,\",\"city\":\"Hamden\",\"state\":\"Connecticut\",\"zip\":\"\"}", "41.381799999999998", "-72.911299999999997", null, false ] ]
+  , [ 47, "DFF8A257-AC86-4484-9DF9-F598421427DF", 47, 1395407744, "875279", 1395407744, "875279", "{\n}", "1007497", "HAMDEN - SPRING GLEN FARMERS’ MARKET", [ null, null ], "New Haven", null, null, null, null, null, null, null, null, "-72.908199999999994", "41.3658", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "2009", [ "{\"address\":\"Spring Glen Church, 1825 Whitney Avenue\",\"city\":\"Hamden\",\"state\":\"Connecticut\",\"zip\":\"\"}", "41.3658", "-72.908199999999994", null, false ] ]
+  , [ 48, "EAF1150E-B234-459E-8E34-06CD9549EF50", 48, 1395407744, "875279", 1395407744, "875279", "{\n}", "1004559", "Hampton Farmers Market", [ "http://www.hamptonct.org/community.htm?id=a4vhhdin", null ], "Windham", "07/12/2013 to 09/27/2013", "Fri: 3:00 PM-6:00 PM;", null, null, null, null, null, null, "-72.054996000000003", "41.783067000000003", "Local government building grounds", "Y", "Y", "N", "Y", "N", "N", "N", "Y", "N", "Y", "N", "Y", "Y", "N", "Y", "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "41438.593240740738", [ "{\"address\":\"164 Main St\",\"city\":\"Hampton\",\"state\":\"Connecticut\",\"zip\":\"6247\"}", "41.783067000000003", "-72.054996000000003", null, false ] ]
+  , [ 49, "0C29D1D9-0333-4154-8B8A-8F9148E185C1", 49, 1395407744, "875279", 1395407744, "875279", "{\n}", "1007477", "Hartford - Capital Avenue Farmers Market", [ null, null ], "Hartford", null, null, null, null, null, null, null, null, "-72.679599999999994", "41.762099999999997", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "2009", [ "{\"address\":\"First Presbyterian Church of Hartford\",\"city\":\"Hartford\",\"state\":\"Connecticut\",\"zip\":\"\"}", "41.762099999999997", "-72.679599999999994", null, false ] ]
+  , [ 50, "7283FCEE-6C7F-4FA3-BFD9-E5AA21DCFD31", 50, 1395407744, "875279", 1395407744, "875279", "{\n}", "1007505", "Hartford - Market 21 Farmers’ Market", [ null, null ], "Hartford", null, null, null, null, null, null, null, null, "-72.677499999999995", "41.767400000000002", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "2011", [ "{\"address\":\"230 Asylum Street\",\"city\":\"Hartford\",\"state\":\"Connecticut\",\"zip\":\"\"}", "41.767400000000002", "-72.677499999999995", null, false ] ]
+  , [ 51, "A244DCC5-49D2-450D-85C2-B084B5EF39DD", 51, 1395407744, "875279", 1395407744, "875279", "{\n}", "1007466", "HARTFORD - OLD STATE HOUSE FARMERS’ MARKET", [ null, null ], "Hartford", null, null, null, null, null, null, null, null, "-72.673299999999998", "41.765999999999998", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "2009", [ "{\"address\":\"Old State House, 800 Main Street\",\"city\":\"Hartford\",\"state\":\"Connecticut\",\"zip\":\"6101\"}", "41.765999999999998", "-72.673299999999998", null, false ] ]
+  , [ 52, "3F696AD3-8B3B-4B5C-8A5A-F4BB0DC9C443", 52, 1395407744, "875279", 1395407744, "875279", "{\n}", "1007506", "Hartford - Park Street Farmers’ Market", [ null, null ], "Hartford", null, null, null, null, null, null, null, null, "-72.682299999999998", "41.757899999999999", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "2011", [ "{\"address\":\"Park St. and Washington St.\",\"city\":\"Hartford\",\"state\":\"Connecticut\",\"zip\":\"6106\"}", "41.757899999999999", "-72.682299999999998", null, false ] ]
+  , [ 53, "54FE16E6-22DE-4DC1-A8DC-2D80B94BF5F0", 53, 1395407744, "875279", 1395407744, "875279", "{\n}", "1007830", "Hartford - West End Farmers Market", [ "http://www.westend.org/farmersmarket", null ], "Hartford", null, null, null, null, null, null, null, null, "-72.711100000000002", "41.766199999999998", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "2011", [ "{\"address\":\"571 Farmington Avenue and South Whitney Street\",\"city\":\"Hartford\",\"state\":\"Connecticut\",\"zip\":\"6105\"}", "41.766199999999998", "-72.711100000000002", null, false ] ]
+  , [ 54, "6D4150E7-4689-4039-935D-47491878BC65", 54, 1395407744, "875279", 1395407744, "875279", "{\n}", "1007701", "Hartford Regional Market", [ "http://www.ctgrown.gov", null ], "Hartford", null, null, null, null, null, null, null, null, "-72.654799999999994", "41.746200000000002", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "2009", [ "{\"address\":\"I-91, Exit 27, 101 Reserve Road\",\"city\":\"Hartford\",\"state\":\"Connecticut\",\"zip\":\"6114\"}", "41.746200000000002", "-72.654799999999994", null, false ] ]
+  , [ 55, "35E6BA60-E3C5-4D30-89DB-48BEE03FA346", 55, 1395407744, "875279", 1395407744, "875279", "{\n}", "1000159", "Hartford's North End Farmers' Market", [ "http://www.hartfordfood.org/programs/northend-farmers-market/", null ], "Hartford", "06/26/2013 to 10/30/2013", "Wed: 10:00 AM-1:00 PM;", null, null, null, null, null, null, "-72.690028600000005", "41.799048999999997", "Other", "Y", "Y", "Y", "Y", "Y", "N", "Y", "N", "N", "Y", "N", "Y", "Y", "Y", "Y", "N", "N", "N", "N", "N", "N", "N", "Y", "N", "N", "41450.670601851853", [ "{\"address\":\"80 Coventry St\",\"city\":\"Hartford\",\"state\":\"Connecticut\",\"zip\":\"6112\"}", "41.799048999999997", "-72.690028600000005", null, false ] ]
+  , [ 56, "9F8F6FD7-0DC3-4487-8BA7-94D0BFFD5DE9", 56, 1395407744, "875279", 1395407744, "875279", "{\n}", "1007499", "HEBRON FARMERS’ MARKET", [ null, null ], "Tolland", null, null, null, null, null, null, null, null, "-72.391400000000004", "41.652799999999999", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "2009", [ "{\"address\":\"Hebron Elementary School, Rte. 85\",\"city\":\"Hebron\",\"state\":\"Connecticut\",\"zip\":\"\"}", "41.652799999999999", "-72.391400000000004", null, false ] ]
+  , [ 57, "1DD2B50F-4030-47F1-BBBC-FCF5F37CFAE6", 57, 1395407744, "875279", 1395407744, "875279", "{\n}", "1001312", "Higganum Village Farmers' Market", [ "http://www.higganumvillagefarmersmarket.org", null ], "Middlesex", "06/07/2013 to 10/25/2013", "Fri: 3:30 PM-6:30 PM;", null, null, null, null, null, null, "-72.560406", "41.496845999999998", "Local government building grounds", "Y", "Y", "Y", "Y", "N", "Y", "Y", "Y", "Y", "Y", "N", "Y", "Y", "Y", "N", "N", "Y", "N", "N", "Y", "Y", "Y", "Y", "Y", "N", "41449.616481481484", [ "{\"address\":\"231 Saybrook Road\",\"city\":\"Higganum\",\"state\":\"Connecticut\",\"zip\":\"6441\"}", "41.496845999999998", "-72.560406", null, false ] ]
+  , [ 58, "C0111AD4-E904-4383-97A8-582C3ED0AC28", 58, 1395407744, "875279", 1395407744, "875279", "{\n}", "1004508", "Hill-Stead Museum Farmers Market", [ "http://www.hillstead.org/events-hillstead-farmers-market.php", null ], "Hartford", "07/07/2013 to 10/20/2013", "Sun: 11:00 AM-2:00 PM;", null, null, null, null, null, null, "-72.823111999999995", "41.721409999999999", "Other", "Y", "Y", "N", "Y", "N", "Y", "Y", "N", "Y", "Y", "Y", "Y", "Y", "Y", "Y", "Y", "Y", "N", "N", "Y", "Y", "Y", "Y", "Y", "Y", "41437.385925925926", [ "{\"address\":\"35 Mountain Road\",\"city\":\"Farmington\",\"state\":\"Connecticut\",\"zip\":\"6032\"}", "41.721409999999999", "-72.823111999999995", null, false ] ]
+  , [ 59, "606FEF09-A1DF-4478-AE4D-339AA4C054D7", 59, 1395407744, "875279", 1395407744, "875279", "{\n}", "1008929", "Ivoryton Village Farmers Market", [ "http://www.ivorytonfarmersmarket.com", null ], "Middlesex", "06/22/2013 to 10/05/2013", "Sat: 9:00 AM-12:30 PM;", null, null, null, null, null, null, "-72.441648999999998", "41.348492999999998", "Local government building grounds", "Y", "N", "N", "Y", "N", "Y", "N", "Y", "Y", "Y", "N", "Y", "Y", "Y", "N", "N", "Y", "N", "N", "Y", "N", "Y", "N", "N", "N", "41480.714467592596", [ "{\"address\":\"Ivoryton Village Green Corner of Main St and N Main St\",\"city\":\"Ivoryton\",\"state\":\"Connecticut\",\"zip\":\"6442\"}", "41.348492999999998", "-72.441648999999998", null, false ] ]
+  , [ 60, "30038FAE-EB33-4790-9711-F960E0F096BB", 60, 1395407744, "875279", 1395407744, "875279", "{\n}", "1007469", "Kent Farmers Market", [ null, null ], "Litchfield", null, null, null, null, null, null, null, null, "-73.472285999999997", "41.729253999999997", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "2009", [ "{\"address\":\"Kent Green\",\"city\":\"Kent\",\"state\":\"Connecticut\",\"zip\":\"6757\"}", "41.729253999999997", "-73.472285999999997", null, false ] ]
+  , [ 61, "A61267C6-A3E6-4E86-B402-EE1439A4420B", 61, 1395407744, "875279", 1395407744, "875279", "{\n}", "1002056", "Lebanon Farmers Market", [ "http://www.lebanontownhall.org", null ], "New London", "06/01/2013 to 10/12/2013", "Sat: 9:00 AM-12:00 PM;", null, null, null, null, null, null, "-72.212898999999993", "41.6357", "Local government building grounds", "Y", "Y", "N", "Y", "Y", "Y", "Y", "Y", "Y", "Y", "N", "Y", "Y", "Y", "Y", "Y", "Y", "N", "N", "Y", "Y", "Y", "Y", "Y", "N", "41442.465474537035", [ "{\"address\":\"579 Exeter Road\",\"city\":\"Lebanon\",\"state\":\"Connecticut\",\"zip\":\"6249\"}", "41.6357", "-72.212898999999993", null, false ] ]
+  , [ 62, "FE8EEA7C-0900-4A55-AE56-7BD1ED2E6484", 62, 1395407744, "875279", 1395407744, "875279", "{\n}", "1007822", "LEDYARD – TRI-TOWN FARMERS’ MARKET", [ "http://www.tritownfoods.com", null ], "New London", null, null, null, null, null, null, null, null, "-72.015000000000001", "41.439700000000002", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "2009", [ "{\"address\":\"Tri-Town Center Parking Lot, Rte. 117\",\"city\":\"Ledyard\",\"state\":\"Connecticut\",\"zip\":\"\"}", "41.439700000000002", "-72.015000000000001", null, false ] ]
+  , [ 63, "0F774526-18B6-4D8B-A76F-97F765F37434", 63, 1395407744, "875279", 1395407744, "875279", "{\n}", "1005868", "Litchfield Hills Farm-Fresh Market", [ "http://www.lhfs-ct.org", null ], "Litchfield", "01/01/2013 to 12/31/2013", "Sat: 10:00 AM-1:00 PM;", null, null, null, null, null, null, "-73.193190000000001", "41.74541", "Educational institution", "Y", "Y", "Y", "Y", "Y", "Y", "Y", "N", "Y", "Y", "N", "Y", "Y", "N", "Y", "Y", "Y", "N", "N", "N", "Y", "Y", "Y", "Y", "N", "41436.912523148145", [ "{\"address\":\"125 West Street\",\"city\":\"Litchfield\",\"state\":\"Connecticut\",\"zip\":\"6759\"}", "41.74541", "-73.193190000000001", null, false ] ]
+  , [ 64, "014D8C34-F37C-4FA9-A6AF-2EDD54B2CF5F", 64, 1395407744, "875279", 1395407744, "875279", "{\n}", "1005869", "Litchfield Hills Farm-Fresh Market", [ "http://www.lhfs-ct.org", null ], "Litchfield", "01/01/2013 to 12/31/2013", "Sat: 10:00 AM-1:00 PM;", null, null, null, null, null, null, "-73.215271999999999", "41.736910999999999", "Other", "Y", "Y", "Y", "Y", "Y", "Y", "Y", "N", "Y", "Y", "N", "Y", "Y", "N", "Y", "Y", "Y", "N", "N", "Y", "Y", "Y", "Y", "Y", "N", "41436.905150462961", [ "{\"address\":\"421 Bantam Road\",\"city\":\"Litchfield\",\"state\":\"Connecticut\",\"zip\":\"6759\"}", "41.736910999999999", "-73.215271999999999", null, false ] ]
+  , [ 65, "B9BA8EB3-50B0-4555-8D8A-386AD48916CF", 65, 1395407744, "875279", 1395407744, "875279", "{\n}", "1000612", "Lyme Farmers Market", [ "http://www.farmcoffee.com", null ], "New London", "06/01/2013 to 10/19/2013", "Sat: 9:00 AM-12:30 PM;", null, null, null, null, null, null, "-72.335757999999998", "41.359721999999998", "On a farm from: a barn, a greenhouse, a tent, a stand, etc", "Y", "N", "N", "N", "N", "Y", "Y", "Y", "Y", "Y", "Y", "Y", "Y", "Y", "Y", "Y", "Y", "N", "N", "Y", "Y", "Y", "N", "N", "N", "41452.566157407404", [ "{\"address\":\"78 Bill Hill Rd\",\"city\":\"Lyme\",\"state\":\"Connecticut\",\"zip\":\"6371\"}", "41.359721999999998", "-72.335757999999998", null, false ] ]
+  , [ 66, "CA809F07-0495-4B7F-AA98-F7D019D081DD", 66, 1395407744, "875279", 1395407744, "875279", "{\n}", "1007751", "MADISON FARMERS’ MARKET", [ "http://www.madisonctfarmersmarket.com", null ], "New Haven", null, null, null, null, null, null, null, null, "-72.558516999999995", "41.265937000000001", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "2009", [ "{\"address\":\"Madison Historic Town Green\",\"city\":\"Madison\",\"state\":\"Connecticut\",\"zip\":\"\"}", "41.265937000000001", "-72.558516999999995", null, false ] ]
+  , [ 67, "26799DED-CAB1-4633-ADB5-4FE314CD5486", 67, 1395407744, "875279", 1395407744, "875279", "{\n}", "1005105", "MANCHESTER COMMUNITY COLLEGE FARMERS’ MARKET", [ null, null ], "Hartford", null, null, null, null, null, null, null, null, "-72.568799999999996", "41.7622", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "2009", [ "{\"address\":\"Village Courtyard, Manchester Community College\",\"city\":\"Manchester\",\"state\":\"Connecticut\",\"zip\":\"6040\"}", "41.7622", "-72.568799999999996", null, false ] ]
+  , [ 68, "75E93B44-0840-46D4-833F-9FF9629CF660", 68, 1395407744, "875279", 1395407744, "875279", "{\n}", "1007470", "Manchester Farmers Market", [ null, null ], "Hartford", null, null, null, null, null, null, null, null, "-72.520499999999998", "41.767499999999998", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "2009", [ "{\"address\":\"Main &amp; Forest Streets, Town parking lot\",\"city\":\"Manchester\",\"state\":\"Connecticut\",\"zip\":\"6040\"}", "41.767499999999998", "-72.520499999999998", null, false ] ]
+  , [ 69, "B1BCFBE6-74D7-422D-92C7-67AD5650BDF6", 69, 1395407744, "875279", 1395407744, "875279", "{\n}", "1007488", "MARLBOROUGH FARMERS’ MARKET", [ null, null ], "Hartford", null, null, null, null, null, null, null, null, "-72.464200000000005", "41.632800000000003", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "2009", [ "{\"address\":\"45 North Main Street\",\"city\":\"Marlborough\",\"state\":\"Connecticut\",\"zip\":\"\"}", "41.632800000000003", "-72.464200000000005", null, false ] ]
+  , [ 70, "ED487A0D-1400-4F72-86A6-2FC876F794D7", 70, 1395407744, "875279", 1395407744, "875279", "{\n}", "1007460", "Meriden Farmers Market", [ null, null ], "New Haven", null, null, null, null, null, null, null, null, "-72.804900000000004", "41.538200000000003", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "2009", [ "{\"address\":\"Butler Street parking lot\",\"city\":\"Meriden\",\"state\":\"Connecticut\",\"zip\":\"6450\"}", "41.538200000000003", "-72.804900000000004", null, false ] ]
+  , [ 71, "DDE25264-3AD8-4064-8B50-C85EF8794EDB", 71, 1395407744, "875279", 1395407744, "875279", "{\n}", "1007443", "MIDDLEBURY FARMERS’ MARKET", [ null, null ], "New Haven", null, null, null, null, null, null, null, null, "-73.121300000000005", "41.527799999999999", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "2009", [ "{\"address\":\"Middlebury Senior Center, 1172 Whittemore Road\",\"city\":\"Middlebury\",\"state\":\"Connecticut\",\"zip\":\"\"}", "41.527799999999999", "-73.121300000000005", null, false ] ]
+  , [ 72, "5788C78F-4EA1-4337-AAFB-C142DB1D93B5", 72, 1395407744, "875279", 1395407744, "875279", "{\n}", "1007461", "Middletown Farmers Market", [ null, null ], "Middlesex", null, null, null, null, null, null, null, null, "-72.666200000000003", "41.5565", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "2009", [ "{\"address\":\"South Green on Old Church Street\",\"city\":\"Middletown\",\"state\":\"Connecticut\",\"zip\":\"6457\"}", "41.5565", "-72.666200000000003", null, false ] ]
+  , [ 73, "36936D2E-823B-4723-A6A3-45C3C80D54E8", 73, 1395407744, "875279", 1395407744, "875279", "{\n}", "1007483", "MILFORD - WOODMONT FARMERS’ MARKET", [ null, null ], "New Haven", null, null, null, null, null, null, null, null, "-72.998400000000004", "41.227899999999998", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "2009", [ "{\"address\":\"Robert Treat Farm, 1339 New Haven Avenue\",\"city\":\"Milford\",\"state\":\"Connecticut\",\"zip\":\"\"}", "41.227899999999998", "-72.998400000000004", null, false ] ]
+  , [ 74, "160C43AA-917F-4F07-834A-725ACFD88A02", 74, 1395407744, "875279", 1395407744, "875279", "{\n}", "1006681", "MILFORD - DOWNTOWN FARMERS’ MARKET", [ "http://www.milforddowntownfarmersmarket.com", null ], "New Haven", "June to October", "Sat:9:00 am - 1:00 pm;", null, null, null, null, null, null, "-73.057699999999997", "41.2239", "Private business parking lot", "Y", "Y", "N", "Y", "N", "Y", "Y", "N", "Y", "N", "N", "N", "Y", "Y", "Y", "Y", "Y", "N", "N", "Y", "N", "N", "Y", "N", "N", "40702.795034722221", [ "{\"address\":\"58 River Street, Corner of Darina Place &amp; River Street\",\"city\":\"Milford\",\"state\":\"Connecticut\",\"zip\":\"\"}", "41.2239", "-73.057699999999997", null, false ] ]
+  , [ 75, "518C253F-161F-43AA-8217-4FA9FD171AD9", 75, 1395407744, "875279", 1395407744, "875279", "{\n}", "1007760", "Monroe Farmers’ Market", [ "http://www.monroefarmersmarket.org", null ], "Fairfield", "06/14/2013 to 10/25/2013", "Fri: 3:00 PM-6:00 PM;", null, null, null, null, null, null, "-73.207671000000005", "41.332369999999997", "Local government building grounds", "Y", "Y", "N", "N", "N", "Y", "Y", "N", "Y", "Y", "Y", "Y", "Y", "Y", "Y", "Y", "Y", "N", "N", "Y", "Y", "Y", "Y", "N", "N", "41442.500879629632", [ "{\"address\":\"Fan Hill Road &amp; Rte. 111\",\"city\":\"Monroe\",\"state\":\"Connecticut\",\"zip\":\"6468\"}", "41.332369999999997", "-73.207671000000005", null, false ] ]
+  , [ 76, "F73D3CC0-D6D7-4B7B-B321-F3678033F2A1", 76, 1395407744, "875279", 1395407744, "875279", "{\n}", "1007490", "Morris Farmers' Market", [ null, null ], "Litchfield", null, null, null, null, null, null, null, null, "-73.198966979980497", "41.683750152587898", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "2009", [ "{\"address\":\"Morris Senior Center\",\"city\":\"Morris\",\"state\":\"Connecticut\",\"zip\":\"\"}", "41.683750152587898", "-73.198966979980497", null, false ] ]
+  , [ 77, "9F55F58F-3F13-4768-A0C7-7A13DCF586FA", 77, 1395407744, "875279", 1395407744, "875279", "{\n}", "1007467", "Mystic Farmers Market", [ null, null ], "New London", null, null, null, null, null, null, null, null, "-71.973500000000001", "41.360799999999998", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "2009", [ "{\"address\":\"Quambaug Fire House, 50 Old Stonington Road\",\"city\":\"Mystic\",\"state\":\"Connecticut\",\"zip\":\"6355\"}", "41.360799999999998", "-71.973500000000001", null, false ] ]
+  , [ 78, "76F7FD46-881A-4199-B11A-1F5B187C5281", 78, 1395407744, "875279", 1395407744, "875279", "{\n}", "1007445", "Mystic/Denison Farmers Market", [ null, null ], "New London", null, null, null, null, null, null, null, null, "-71.947100000000006", "41.363", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "2009", [ "{\"address\":\"120 Pequotsepos Rd.\",\"city\":\"Mystic\",\"state\":\"Connecticut\",\"zip\":\"6355\"}", "41.363", "-71.947100000000006", null, false ] ]
+  , [ 79, "D033A4DC-9499-4858-9CD0-0FCA2DE74AE7", 79, 1395407744, "875279", 1395407744, "875279", "{\n}", "1007478", "Naugatuck Farmers Market", [ null, null ], "New Haven", null, null, null, null, null, null, null, null, "-73.073400000000007", "41.492400000000004", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "2009", [ "{\"address\":\"On the Green, Church Street\",\"city\":\"Naugatuck\",\"state\":\"Connecticut\",\"zip\":\"\"}", "41.492400000000004", "-73.073400000000007", null, false ] ]
+  , [ 80, "09F59093-6CBB-4173-B7C2-0E284ABBF2AB", 80, 1395407744, "875279", 1395407744, "875279", "{\n}", "1007471", "New Britain Farmers Market", [ null, null ], "Hartford", null, null, null, null, null, null, null, null, "-72.778999999999996", "41.6736", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "2009", [ "{\"address\":\"109 North Street\",\"city\":\"New Britain\",\"state\":\"Connecticut\",\"zip\":\"6051\"}", "41.6736", "-72.778999999999996", null, false ] ]
+  , [ 81, "C9752F89-556F-47CE-BAD8-702E2DD1F4B5", 81, 1395407744, "875279", 1395407744, "875279", "{\n}", "1000055", "New Canaan Farmers Market", [ "http://www.newcanaanfarmersmarket.net", null ], "Fairfield", "May to November", "Sat:10:00 AM - 2:00 PM;", null, null, null, null, null, null, "-73.492033000000006", "41.144455000000001", "Other", "Y", "Y", "N", "Y", "N", "Y", "Y", "N", "Y", "Y", "N", "Y", "Y", "Y", "Y", "Y", "Y", "Y", "N", "Y", "Y", "Y", "Y", "N", "N", "41043.693680555552", [ "{\"address\":\"Old Center School parking lot, Maple Street\",\"city\":\"New Canaan\",\"state\":\"Connecticut\",\"zip\":\"6840\"}", "41.144455000000001", "-73.492033000000006", null, false ] ]
+  , [ 82, "F5A9473D-F3AF-44F4-96F4-8AE997A64D99", 82, 1395407744, "875279", 1395407744, "875279", "{\n}", "1007491", "NEW HARTFORD FARMERS’ MARKET", [ null, null ], "Litchfield", null, null, null, null, null, null, null, null, "-72.975200000000001", "41.879300000000001", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "2009", [ "{\"address\":\"Pine Meadow Green, Rte. 44 and Church St.\",\"city\":\"New Hartford\",\"state\":\"Connecticut\",\"zip\":\"\"}", "41.879300000000001", "-72.975200000000001", null, false ] ]
+  , [ 83, "48BF3308-44E8-48CF-8895-6A0AF8192232", 83, 1395407744, "875279", 1395407744, "875279", "{\n}", "1005939", "New Haven - Downtown Farmers Market", [ "http://www.cityseed.org/downtown", null ], "New Haven", "06/19/2013 to 11/27/2013", "Wed: 11:00 AM-3:00 PM;", null, null, null, null, null, null, "-72.926625999999999", "41.306638", "Local government building grounds", "Y", "Y", "Y", "Y", "Y", "Y", "Y", "N", "Y", "Y", "N", "Y", "Y", "Y", "Y", "N", "Y", "N", "N", "N", "Y", "Y", "N", "N", "N", "41454.967002314814", [ "{\"address\":\"New Haven Green, Corner of Chapel &amp; Temple Streets\",\"city\":\"New Haven\",\"state\":\"Connecticut\",\"zip\":\"6521\"}", "41.306638", "-72.926625999999999", null, false ] ]
+  , [ 84, "FB8834D0-42C2-4D60-A5DC-BB3DDC5E5321", 84, 1395407744, "875279", 1395407744, "875279", "{\n}", "1007826", "New Haven - Upper State Street Farmers’ Market", [ "http://www.upperstatestreet.org", null ], "New Haven", null, null, null, null, null, null, null, null, "-72.908900000000003", "41.316099999999999", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "2011", [ "{\"address\":\"State St. and Mechanic St.\",\"city\":\"NEW HAVEN\",\"state\":\"Connecticut\",\"zip\":\"\"}", "41.316099999999999", "-72.908900000000003", null, false ] ]
+  , [ 85, "FF097CA9-6346-4D4A-8FF3-E9B04DE54733", 85, 1395407744, "875279", 1395407744, "875279", "{\n}", "1002588", "New London Field of Greens Markets", [ "http://www.newlondonfieldofgreens.org", null ], "New London", "06/14/2013 to 10/25/2013", "Fri: 10:00 AM-2:00 PM;", null, null, null, null, null, null, "-72.094023000000007", "41.353892000000002", "Local government building grounds", "Y", "Y", "N", "Y", "Y", "Y", "Y", "Y", "N", "Y", "N", "N", "Y", "Y", "Y", "Y", "N", "N", "N", "N", "N", "Y", "Y", "N", "N", "41436.744456018518", [ "{\"address\":\"Corner of State and Bank Streets - Parade Plaza\",\"city\":\"New London\",\"state\":\"Connecticut\",\"zip\":\"6320\"}", "41.353892000000002", "-72.094023000000007", null, false ] ]
+  , [ 86, "A0342151-E12D-43EA-925B-EC3AD8002FBE", 86, 1395407744, "875279", 1395407744, "875279", "{\n}", "1002589", "New London Field of Greens Markets", [ "http://www.newlondonfieldofgreens.org", null ], "New London", "06/12/2013 to 10/30/2013", "Wed: 12:00 PM-4:00 PM;", null, null, null, null, null, null, "-72.103803400000004", "41.337215499999999", "Healthcare Institution", "Y", "Y", "N", "Y", "Y", "Y", "Y", "N", "Y", "Y", "N", "N", "Y", "Y", "Y", "Y", "Y", "N", "N", "Y", "Y", "N", "Y", "N", "N", "41436.732048611113", [ "{\"address\":\"365 Montauk Avenue\",\"city\":\"New London\",\"state\":\"Connecticut\",\"zip\":\"6320\"}", "41.337215499999999", "-72.103803400000004", null, false ] ]
+  , [ 87, "1F98CCAB-E06B-4127-BB22-C906CA604635", 87, 1395407744, "875279", 1395407744, "875279", "{\n}", "1008083", "New London Field of Greens on Hodges Square", [ "http://www.newlondonfieldofgreens.org", null ], "New London", "06/22/2013 to 10/26/2013", "Sat: 2:00 PM-5:00 PM;", null, null, null, null, null, null, "-72.102903999999995", "41.368890999999998", "Other", "Y", "Y", "Y", "Y", "Y", "Y", "Y", "Y", "Y", "N", "N", "N", "Y", "Y", "Y", "Y", "Y", "N", "N", "N", "N", "Y", "Y", "N", "N", "41436.749456018515", [ "{\"address\":\"Williams Street\",\"city\":\"New London\",\"state\":\"Connecticut\",\"zip\":\"6320\"}", "41.368890999999998", "-72.102903999999995", null, false ] ]
+  , [ 88, "E0E6B129-72FC-42DC-8E36-B12911E22FC8", 88, 1395407744, "875279", 1395407744, "875279", "{\n}", "1007472", "New Milford Farmers Market", [ null, null ], "Litchfield", null, null, null, null, null, null, null, null, "-73.4114", "41.577199999999998", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "2009", [ "{\"address\":\"Town Green at Main St.\",\"city\":\"New Milford\",\"state\":\"Connecticut\",\"zip\":\"6776\"}", "41.577199999999998", "-73.4114", null, false ] ]
+  , [ 89, "C1AA3C9B-9165-4443-A37F-92CB5A339DE5", 89, 1395407744, "875279", 1395407744, "875279", "{\n}", "1007769", "NORFOLK FARMERS’ MARKET", [ "http://www.norfolkfarmersmarket.org", null ], "Litchfield", null, null, null, null, null, null, null, null, "-73.202057999999994", "41.993983", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "2009", [ "{\"address\":\"Center of Town, Rte. 44\",\"city\":\"Norfolk\",\"state\":\"Connecticut\",\"zip\":\"\"}", "41.993983", "-73.202057999999994", null, false ] ]
+  , [ 90, "9E1BFC00-0C0C-4AAC-B8BC-BB9ADDA2839E", 90, 1395407744, "875279", 1395407744, "875279", "{\n}", "1004887", "North End Farmers Market", [ "http://www.northendfarmersmarket.org", null ], "Middlesex", "06/14/2013 to 10/25/2013", "Fri: 10:00 AM-2:00 PM;", null, null, null, null, null, null, "-72.651687600000002", "41.563602400000001", "Other", "Y", "Y", "Y", "Y", "Y", "Y", "Y", "Y", "N", "Y", "N", "Y", "Y", "Y", "Y", "Y", "N", "N", "N", "Y", "N", "Y", "N", "N", "N", "41437.620393518519", [ "{\"address\":\"575 Main St.\",\"city\":\"Middletown\",\"state\":\"Connecticut\",\"zip\":\"6457\"}", "41.563602400000001", "-72.651687600000002", null, false ] ]
+  , [ 91, "150D5703-38F4-439B-AAD6-B178CC491D78", 91, 1395407744, "875279", 1395407744, "875279", "{\n}", "1007439", "NORTH GUILFORD - DUDLEY FARMERS’ MARKET", [ null, null ], "New Haven", null, null, null, null, null, null, null, null, "-72.719099999999997", "41.353099999999998", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "2009", [ "{\"address\":\"2351 Durham Road\",\"city\":\"Guilford\",\"state\":\"Connecticut\",\"zip\":\"\"}", "41.353099999999998", "-72.719099999999997", null, false ] ]
+  , [ 92, "CB059BE4-BED3-40F1-9A10-C3C85D7C20E7", 92, 1395407744, "875279", 1395407744, "875279", "{\n}", "1007507", "Norwalk - Calvary Baptist Church Farmers’ Market", [ null, null ], "Fairfield", null, null, null, null, null, null, null, null, "-73.4178", "41.093400000000003", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "2011", [ "{\"address\":\"21 Concord Street\",\"city\":\"Norwalk\",\"state\":\"Connecticut\",\"zip\":\"\"}", "41.093400000000003", "-73.4178", null, false ] ]
+  , [ 93, "F5F3A35E-A78E-4C9E-B8E4-7F62E8B7E695", 93, 1395407744, "875279", 1395407744, "875279", "{\n}", "1007508", "Norwalk - Health Department Farmers’ Market", [ null, null ], "Fairfield", null, null, null, null, null, null, null, null, "-73.407700000000006", "41.112299999999998", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "2011", [ "{\"address\":\"137 East Avenue\",\"city\":\"Norwalk\",\"state\":\"Connecticut\",\"zip\":\"\"}", "41.112299999999998", "-73.407700000000006", null, false ] ]
+  , [ 94, "4D7FA305-A9F3-460E-BCD0-7772FB556B25", 94, 1395407744, "875279", 1395407744, "875279", "{\n}", "1003888", "Norwalk - Rowayton Farmers’ Market", [ "http://www.rowaytonct.com/farmersmarket", null ], "Fairfield", null, null, null, null, null, null, null, null, "-73.443700000000007", "41.069800000000001", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "2011", [ "{\"address\":\"177 Rowayton Avenue\",\"city\":\"Rowayton\",\"state\":\"Connecticut\",\"zip\":\"\"}", "41.069800000000001", "-73.443700000000007", null, false ] ]
+  , [ 95, "9E2FAB29-A9CC-474B-B93B-36D40A65E5F6", 95, 1395407744, "875279", 1395407744, "875279", "{\n}", "1007446", "Norwalk Farmers Market", [ null, null ], "Fairfield", null, null, null, null, null, null, null, null, "-73.432900000000004", "41.122399999999999", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "2009", [ "{\"address\":\"Flax Hill Road, South Norwalk\",\"city\":\"Norwalk\",\"state\":\"Connecticut\",\"zip\":\"6850\"}", "41.122399999999999", "-73.432900000000004", null, false ] ]
+  , [ 96, "2B66E658-C6E9-4FAE-9AD4-C704E87AADFE", 96, 1395407744, "875279", 1395407744, "875279", "{\n}", "1008134", "Norwich Downtown Farmers Market", [ null, null ], "New London", "07/10/2013 to 10/30/2013", "Wed: 10:00 AM-2:00 PM;", null, null, null, null, null, null, "-72.078153", "41.523175999999999", "Local government building grounds", "Y", "Y", "Y", "N", "N", "Y", "N", "Y", "N", "Y", "N", "N", "Y", "Y", "N", "N", "N", "N", "N", "N", "N", "Y", "N", "N", "N", "41439.670416666668", [ "{\"address\":\"Chelsea Harbor Drive\",\"city\":\"Norwich\",\"state\":\"Connecticut\",\"zip\":\"6360\"}", "41.523175999999999", "-72.078153", null, false ] ]
+  , [ 97, "4A9B8765-8F2F-4FB3-B780-F3D910D01462", 97, 1395407744, "875279", 1395407744, "875279", "{\n}", "1002634", "Old Greenwich Farmer's Market", [ "http://www.ogfarmersmarket.com", null ], "Fairfield", "May to November", "Wed:3:00 PM - 6:00 PM;", null, null, null, null, null, null, "-73.571823800000004", "41.031537200000002", "Private business parking lot", "Y", "N", "N", "N", "N", "Y", "Y", "N", "Y", "Y", "Y", "Y", "Y", "Y", "Y", "Y", "Y", "Y", "N", "Y", "Y", "Y", "Y", "N", "N", "41131.670624999999", [ "{\"address\":\"38 West End Avenue\",\"city\":\"Old Greenwich\",\"state\":\"Connecticut\",\"zip\":\"6870\"}", "41.031537200000002", "-73.571823800000004", null, false ] ]
+  , [ 98, "3FBF2057-08FE-4299-9020-99DFFC382445", 98, 1395407744, "875279", 1395407744, "875279", "{\n}", "1007776", "Old Saybrook Farmers Market", [ "http://www.oldsaybrookfarmersmarket.com", null ], "Middlesex", null, null, null, null, null, null, null, null, "-72.376099999999994", "41.292099999999998", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "2009", [ "{\"address\":\"210 Main Street, Cinema Plaza\",\"city\":\"Old Saybrook\",\"state\":\"Connecticut\",\"zip\":\"6475\"}", "41.292099999999998", "-72.376099999999994", null, false ] ]
+  , [ 99, "548F622C-C961-43B9-B640-2A94BB474CF6", 99, 1395407744, "875279", 1395407744, "875279", "{\n}", "1007440", "ORANGE FARMERS’ MARKET", [ null, null ], "New Haven", null, null, null, null, null, null, null, null, "-73.021600000000007", "41.272300000000001", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "2009", [ "{\"address\":\"Orange Country Fair Grounds, 525 Orange Center Road\",\"city\":\"Orange\",\"state\":\"Connecticut\",\"zip\":\"\"}", "41.272300000000001", "-73.021600000000007", null, false ] ]
+  , [ 100, "B51DF8B4-059E-4D50-B158-EB9DBBE7D4CD", 100, 1395407744, "875279", 1395407744, "875279", "{\n}", "1007764", "Plainfield Farmers Market", [ "http://www.nectfaremrsmarket.org", null ], "Windham", null, null, null, null, null, null, null, null, "-71.918099999999995", "41.681600000000003", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "2009", [ "{\"address\":\"482 Norwich Road (Route 12)\",\"city\":\"Plainfield\",\"state\":\"Connecticut\",\"zip\":\"6354\"}", "41.681600000000003", "-71.918099999999995", null, false ] ]
+  , [ 101, "53A9C2D0-4E54-46E0-8FD4-2ED6627BBB63", 101, 1395407744, "875279", 1395407744, "875279", "{\n}", "1007823", "PORTLAND - TRI TOWN FOODS FARMERS’ MARKET", [ "http://www.tritownfoods.com", null ], "Middlesex", null, null, null, null, null, null, null, null, "-72.577399999999997", "41.614600000000003", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "2009", [ "{\"address\":\"Store Parking Lot, 316 Marlborough Street\",\"city\":\"Portland\",\"state\":\"Connecticut\",\"zip\":\"\"}", "41.614600000000003", "-72.577399999999997", null, false ] ]
+  , [ 102, "A1795320-2CE1-4912-8507-0C1017C27487", 102, 1395407744, "875279", 1395407744, "875279", "{\n}", "1007509", "Preston Farmers’ Market", [ null, null ], "New London", null, null, null, null, null, null, null, null, "-71.984099999999998", "41.488100000000003", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "2011", [ "{\"address\":\"#1 Route 164\",\"city\":\"Preston\",\"state\":\"Connecticut\",\"zip\":\"\"}", "41.488100000000003", "-71.984099999999998", null, false ] ]
+  , [ 103, "FE359CE9-1DE0-40B5-91C0-79A8516127ED", 103, 1395407744, "875279", 1395407744, "875279", "{\n}", "1007765", "Putnam Farmers Market", [ "http://www.nectfaremrsmarket.org", null ], "Windham", null, null, null, null, null, null, null, null, "-71.921400000000006", "41.927700000000002", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "2009", [ "{\"address\":\"18 Kennedy Drive\",\"city\":\"Putnam\",\"state\":\"Connecticut\",\"zip\":\"6260\"}", "41.927700000000002", "-71.921400000000006", null, false ] ]
+  , [ 105, "49E90651-042C-4B01-9AC2-C452F1B067EE", 105, 1395407744, "875279", 1395407744, "875279", "{\n}", "20295", "Salem Farmers' Market", [ "http://www.localharvest.org/salem-farmers-market-M5368", null ], null, null, null, null, null, null, null, null, null, "-72.259699999999995", "41.480699999999999", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", null, [ "{\"address\":\"82 Norwich Rd (Rt 82)\",\"city\":\"Salem\",\"state\":\"Connecticut\",\"zip\":\"\"}", "41.480699999999999", "-72.259699999999995", null, false ] ]
+  , [ 106, "FBBEFC49-9909-49CF-80C5-DE093B44E1A3", 106, 1395407744, "875279", 1395407744, "875279", "{\n}", "1007495", "Sandy Hook Farmers Market", [ null, null ], "Fairfield", null, null, null, null, null, null, null, null, "-73.2821", "41.420099999999998", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "2009", [ "{\"address\":\"Corner of Church Hill and Glen Roads\",\"city\":\"Sandy Hook\",\"state\":\"Connecticut\",\"zip\":\"6482\"}", "41.420099999999998", "-73.2821", null, false ] ]
+  , [ 107, "42F92D01-CBB8-48B6-876A-D5526C5CF968", 107, 1395407744, "875279", 1395407744, "875279", "{\n}", "1007791", "Sandy Hook Organic Farmers Market", [ "http://www.sandyhookorganicfarmersmarket.org", null ], "Fairfield", null, null, null, null, null, null, null, null, "-73.281800000000004", "41.42", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "2009", [ "{\"address\":\"5 Washington Avenue, Sandy Hood Center\",\"city\":\"Sandy Hook\",\"state\":\"Connecticut\",\"zip\":\"6482\"}", "41.42", "-73.281800000000004", null, false ] ]
+  , [ 108, "DA7C6EDB-3159-4FE8-9281-855520E80E57", 108, 1395407744, "875279", 1395407744, "875279", "{\n}", "1008293", "Sandy Hook Organic Farmers Market", [ "http://www.localharvest.org/thefarmersfarketatfairfieldhills/", null ], "Fairfield", "06/18/2013 to 10/15/2013", "Tue: 2:00 PM-6:00 PM;", null, null, null, null, null, null, "-73.272462500000003", "41.406440400000001", "Local government building grounds", "Y", "Y", "N", "Y", "N", "Y", "Y", "N", "Y", "Y", "N", "Y", "Y", "Y", "Y", "Y", "Y", "N", "N", "Y", "Y", "Y", "N", "N", "N", "41445.762777777774", [ "{\"address\":\"Wasserman Way\",\"city\":\"Newtown\",\"state\":\"Connecticut\",\"zip\":\"6470\"}", "41.406440400000001", "-73.272462500000003", null, false ] ]
+  , [ 109, "F025DFFA-F117-4BBA-9808-064A8A2ACAE1", 109, 1395407744, "875279", 1395407744, "875279", "{\n}", "1007444", "Scotland Farmers Market", [ null, null ], "Windham", null, null, null, null, null, null, null, null, "-72.082499999999996", "41.698500000000003", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "2009", [ "{\"address\":\"Scotland Green, Junction Route 14 and 97\",\"city\":\"Scotland\",\"state\":\"Connecticut\",\"zip\":\"6264\"}", "41.698500000000003", "-72.082499999999996", null, false ] ]
+  , [ 110, "A544BB80-48DD-4BE0-B889-4923858E8643", 110, 1395407744, "875279", 1395407744, "875279", "{\n}", "1002794", "Seymour Farmers Market", [ null, null ], "New Haven", "May to October", "Tue:12:00 pm - 6:00 pm;", null, null, null, null, null, null, "-73.075699999999998", "41.391800000000003", "Local government building grounds", "Y", "N", "N", "N", "N", "Y", "N", "N", "Y", "N", "N", "Y", "Y", "Y", "Y", "Y", "N", "N", "N", "Y", "N", "N", "Y", "N", "N", "40925.642627314817", [ "{\"address\":\"Pine Street\",\"city\":\"Seymour\",\"state\":\"Connecticut\",\"zip\":\"6483\"}", "41.391800000000003", "-73.075699999999998", null, false ] ]
+  , [ 111, "9BFE454C-188B-4F04-808B-10EDFCAA7771", 111, 1395407744, "875279", 1395407744, "875279", "{\n}", "1007510", "Shelton - Jones Family Farm Farmers’ Market", [ null, null ], "Fairfield", null, null, null, null, null, null, null, null, "-73.172799999999995", "41.332900000000002", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "2011", [ "{\"address\":\"606 Walnut Tree Hill Road\",\"city\":\"Shelton\",\"state\":\"Connecticut\",\"zip\":\"\"}", "41.332900000000002", "-73.172799999999995", null, false ] ]
+  , [ 112, "4A946514-8D18-410A-9E40-036BA26E1A94", 112, 1395407744, "875279", 1395407744, "875279", "{\n}", "1007449", "Shelton Farmers Market", [ null, null ], "Fairfield", null, null, null, null, null, null, null, null, "-73.122600000000006", "41.303699999999999", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "2009", [ "{\"address\":\"Corner of Cornell &amp; Canal Streets\",\"city\":\"Shelton\",\"state\":\"Connecticut\",\"zip\":\"6484\"}", "41.303699999999999", "-73.122600000000006", null, false ] ]
+  , [ 113, "5B7862F4-42E5-48C0-BA58-2F96670016F4", 113, 1395407744, "875279", 1395407744, "875279", "{\n}", "1007801", "SIMSBURY FARMERS’ MARKET", [ "http://www.simsburyfarmmarket.com/", null ], null, null, null, null, null, null, null, null, null, "-72.81", "41.861600000000003", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "2009", [ "{\"address\":\"Simsmore Square Green, 540 Hopmeadow Street,\",\"city\":\"Simsbury\",\"state\":\"Connecticut\",\"zip\":\"6070\"}", "41.861600000000003", "-72.81", null, false ] ]
+  , [ 114, "D19F8722-FF23-4A35-AC88-8E97239D924E", 114, 1395407744, "875279", 1395407744, "875279", "{\n}", "1007438", "SOMERS FARMERS’ MARKET", [ null, null ], "New London", null, null, null, null, null, null, null, null, "-72.444199999999995", "41.985599999999998", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "2009", [ "{\"address\":\"Corner of Main Street and Battle Street\",\"city\":\"Somers\",\"state\":\"Connecticut\",\"zip\":\"\"}", "41.985599999999998", "-72.444199999999995", null, false ] ]
+  , [ 115, "E23EEDFB-5119-4838-BA1A-BAC5D916954D", 115, 1395407744, "875279", 1395407744, "875279", "{\n}", "1008290", "South Windsor Farmers’ Market", [ "http://www.swfood.org", null ], "Hartford", "06/29/2013 to 10/12/2013", "Sat: 10:00 AM-1:00 PM;", null, null, null, null, null, null, "-72.551943600000001", "41.840979400000002", "Local government building grounds", "Y", "Y", "N", "N", "Y", "Y", "Y", "N", "N", "Y", "N", "Y", "Y", "Y", "N", "N", "Y", "N", "N", "N", "Y", "N", "Y", "N", "N", "41445.712164351855", [ "{\"address\":\"150 Nevers Rd\",\"city\":\"South Windsor\",\"state\":\"Connecticut\",\"zip\":\"6074\"}", "41.840979400000002", "-72.551943600000001", null, false ] ]
+  , [ 116, "F8190F52-47AF-4659-8A8D-F4548529A2F7", 116, 1395407744, "875279", 1395407744, "875279", "{\n}", "1007441", "SOUTHBURY FARMERS’ MARKET", [ null, null ], "New Haven", null, null, null, null, null, null, null, null, "-73.226100000000002", "41.469200000000001", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "2009", [ "{\"address\":\"Southbury Town Hall, 501 Main Street South\",\"city\":\"Southbury\",\"state\":\"Connecticut\",\"zip\":\"\"}", "41.469200000000001", "-73.226100000000002", null, false ] ]
+  , [ 117, "B049732E-B2A2-47DC-9982-01BDA06ECB0C", 117, 1395407744, "875279", 1395407744, "875279", "{\n}", "1007489", "SOUTHINGTON - PLANTSVILLE FARMERS’ MARKET", [ null, null ], "Hartford", null, null, null, null, null, null, null, null, "-72.894499999999994", "41.579900000000002", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "2009", [ "{\"address\":\"997-1003 South Main Steet\",\"city\":\"Plantsville\",\"state\":\"Connecticut\",\"zip\":\"\"}", "41.579900000000002", "-72.894499999999994", null, false ] ]
+  , [ 118, "0B5238E8-A894-46C5-8DF2-30EC55D9971F", 118, 1395407744, "875279", 1395407744, "875279", "{\n}", "1007450", "Stafford Springs Farmers Market", [ null, null ], "Tolland", null, null, null, null, null, null, null, null, "-72.297700000000006", "41.9709", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "2009", [ "{\"address\":\"Mocko's lot\",\"city\":\"Stafford Springs\",\"state\":\"Connecticut\",\"zip\":\"6076\"}", "41.9709", "-72.297700000000006", null, false ] ]
+  , [ 119, "67CC9607-E918-488C-8318-07D006CEE944", 119, 1395407744, "875279", 1395407744, "875279", "{\n}", "1007657", "STAMFORD - BARTLETT ARBORETUM & GARDENS FARMERS’ MARKET", [ "http://www.bartlettarboretum.org/newsevents/farmersmarket2009/", null ], "Fairfield", null, null, null, null, null, null, null, null, "-73.537700000000001", "41.055", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "2009", [ "{\"address\":\"Bartlett Arboretum &amp; Gardens, 151 Brookdale Road\",\"city\":\"Stamford\",\"state\":\"Connecticut\",\"zip\":\"6901\"}", "41.055", "-73.537700000000001", null, false ] ]
+  , [ 120, "63CC0592-82A3-4DFD-99A7-200FF95A2B2D", 120, 1395407744, "875279", 1395407744, "875279", "{\n}", "1007498", "Stamford - High RidgeFarmers' Market", [ null, null ], "Fairfield", null, null, null, null, null, null, null, null, "-73.548299999999998", "41.105699999999999", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "2009", [ "{\"address\":\"1000 High Ridge Road\",\"city\":\"Stamford\",\"state\":\"Connecticut\",\"zip\":\"6901\"}", "41.105699999999999", "-73.548299999999998", null, false ] ]
+  , [ 121, "E6A452AF-6DD9-4736-AF4B-B7336662BCC4", 121, 1395407744, "875279", 1395407744, "875279", "{\n}", "1007476", "Stamford Farmers Market", [ null, null ], "Fairfield", null, null, null, null, null, null, null, null, "-73.5351", "41.056600000000003", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "2009", [ "{\"address\":\"Latham Park, Lower Prospect and Forest Streets\",\"city\":\"Stamford\",\"state\":\"Connecticut\",\"zip\":\"\"}", "41.056600000000003", "-73.5351", null, false ] ]
+  , [ 122, "6E84049A-B8D9-4FBC-A44F-D0B80BC1D5AF", 122, 1395407744, "875279", 1395407744, "875279", "{\n}", "1007512", "Stamford Museum & Nature Center Farmers’ Market", [ null, null ], "Fairfield", null, null, null, null, null, null, null, null, "-73.545199999999994", "41.123600000000003", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "2011", [ "{\"address\":\"39 Scofieldtown Road\",\"city\":\"Stamford\",\"state\":\"Connecticut\",\"zip\":\"\"}", "41.123600000000003", "-73.545199999999994", null, false ] ]
+  , [ 123, "3511B21A-2E2C-4A16-B4BC-86B7B1837BCD", 123, 1395407744, "875279", 1395407744, "875279", "{\n}", "1003290", "Stonington Farmers Market", [ null, null ], "New London", "05/04/2013 to 10/26/2013", "Sat: 9:00 AM-12:00 PM;", null, null, null, null, null, null, "-71.908460000000005", "41.334538000000002", "Local government building grounds", "Y", "Y", "N", "N", "N", "Y", "Y", "Y", "Y", "Y", "Y", "N", "Y", "Y", "Y", "Y", "Y", "N", "N", "Y", "Y", "Y", "Y", "Y", "Y", "41450.400636574072", [ "{\"address\":\"11 Northwest Street, Town Dock\",\"city\":\"Stonington\",\"state\":\"Connecticut\",\"zip\":\"6378\"}", "41.334538000000002", "-71.908460000000005", null, false ] ]
+  , [ 124, "7FBC16A4-03D2-47F5-A798-72AA90771395", 124, 1395407744, "875279", 1395407744, "875279", "{\n}", "1005794", "Storrs Farmers Market", [ "http://www.StorrsFarmersMarket.org", null ], "Tolland", "05/04/2013 to 11/23/2013", "Sat: 3:00 PM-6:00 PM;", null, null, null, null, null, null, "-72.241802000000007", "41.801454999999997", "Local government building grounds", "Y", "Y", "N", "Y", "N", "Y", "Y", "N", "Y", "Y", "N", "Y", "Y", "Y", "Y", "Y", "Y", "N", "N", "Y", "Y", "Y", "Y", "N", "N", "41456.535358796296", [ "{\"address\":\"4 S. Eagleville Road\",\"city\":\"Storrs\",\"state\":\"Connecticut\",\"zip\":\"6268\"}", "41.801454999999997", "-72.241802000000007", null, false ] ]
+  , [ 125, "E8A79222-BCD7-40B2-9D2C-63BDED75C457", 125, 1395407744, "875279", 1395407744, "875279", "{\n}", "1005793", "Storrs Winter Farmers Market", [ "http://www.StorrsFarmersMarket.org", null ], "Tolland", "12/07/2013 to 04/26/2014", "Sat: 3:00 PM-5:00 PM;", null, null, null, null, null, null, "-72.196176500000007", "41.768322099999999", "Local government building grounds", "Y", "Y", "N", "Y", "N", "Y", "Y", "N", "N", "Y", "N", "Y", "Y", "Y", "Y", "Y", "Y", "N", "N", "N", "Y", "Y", "Y", "N", "N", "41456.538553240738", [ "{\"address\":\"54 Warrenville Road\",\"city\":\"Mansfield Center\",\"state\":\"Connecticut\",\"zip\":\"6250\"}", "41.768322099999999", "-72.196176500000007", null, false ] ]
+  , [ 126, "CB4020EA-9F73-42FA-9592-E2000A151B8C", 126, 1395407744, "875279", 1395407744, "875279", "{\n}", "1007451", "Stratford Farmers Market", [ null, null ], "Fairfield", null, null, null, null, null, null, null, null, "-73.129374012350993", "41.174606010317802", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "2009", [ "{\"address\":\"Deluca Field at Main Street\",\"city\":\"Stratford\",\"state\":\"Connecticut\",\"zip\":\"6497\"}", "41.174606010317802", "-73.129374012350993", null, false ] ]
+  , [ 127, "9528CE91-235C-49ED-A3D0-E72E4CF88D67", 127, 1395407744, "875279", 1395407744, "875279", "{\n}", "1007811", "Suffield Farmers Market", [ "http://www.suffieldtownhall.com", null ], "Hartford", null, null, null, null, null, null, null, null, "-72.650099999999995", "41.985799999999998", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "2009", [ "{\"address\":\"Town Green, North Main and High Streets\",\"city\":\"Suffield\",\"state\":\"Connecticut\",\"zip\":\"6078\"}", "41.985799999999998", "-72.650099999999995", null, false ] ]
+  , [ 128, "CDA8AE4D-E99F-46B7-AA57-B9D8FB3B207D", 128, 1395407744, "875279", 1395407744, "875279", "{\n}", "20334", "The Morris Marketplace", [ "http://www.themorrismarket.org/themorrismarketplace.org/home.html", null ], null, null, null, null, null, null, null, null, null, "-73.180999999999997", "41.682699999999997", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "Y", "N", "N", "N", "N", null, [ "{\"address\":\"21 Higbie Rd\",\"city\":\"Morris\",\"state\":\"Connecticut\",\"zip\":\"6763\"}", "41.682699999999997", "-73.180999999999997", null, false ] ]
+  , [ 129, "D6BC13E3-2AE9-4550-A03D-39792FFE9FE6", 129, 1395407744, "875279", 1395407744, "875279", "{\n}", "1007452", "Thomaston Farmers Market", [ null, null ], "Litchfield", null, null, null, null, null, null, null, null, "-73.103499999999997", "41.7044", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "2009", [ "{\"address\":\"Town Green at Main Street- Seth Thomas Park\",\"city\":\"Thomaston\",\"state\":\"Connecticut\",\"zip\":\"6787\"}", "41.7044", "-73.103499999999997", null, false ] ]
+  , [ 130, "2FDDBB5E-67D3-4E0D-BC21-B466C439D477", 130, 1395407744, "875279", 1395407744, "875279", "{\n}", "1007453", "Tolland Farmers Market", [ null, null ], "Tolland", null, null, null, null, null, null, null, null, "-72.369500000000002", "41.872799999999998", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "2009", [ "{\"address\":\"Tolland Green\",\"city\":\"Tolland\",\"state\":\"Connecticut\",\"zip\":\"6084\"}", "41.872799999999998", "-72.369500000000002", null, false ] ]
+  , [ 131, "6650F1B9-DDA3-4467-96BF-FDD2BEF9AA0A", 131, 1395407744, "875279", 1395407744, "875279", "{\n}", "1007437", "Torrington Farmers Market", [ null, null ], "Litchfield", null, null, null, null, null, null, null, null, "-73.115399999999994", "41.814700000000002", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "2009", [ "{\"address\":\"Staples Plaza, South Main Street\",\"city\":\"Torrington\",\"state\":\"Connecticut\",\"zip\":\"6790\"}", "41.814700000000002", "-73.115399999999994", null, false ] ]
+  , [ 132, "C777633F-7643-491F-84D6-125B89A0538E", 132, 1395407744, "875279", 1395407744, "875279", "{\n}", "1007448", "Trumbull Farmers Market", [ null, null ], "Fairfield", null, null, null, null, null, null, null, null, "-73.209900000000005", "41.252499999999998", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "2009", [ "{\"address\":\"Long Hill Green, Main Street\",\"city\":\"Trumbull\",\"state\":\"Connecticut\",\"zip\":\"6611\"}", "41.252499999999998", "-73.209900000000005", null, false ] ]
+  , [ 133, "45F2BC12-D02A-4533-BDA1-1DF44AD05C8B", 133, 1395407744, "875279", 1395407744, "875279", "{\n}", "20355", "Upper State Street Farm Market", [ "http://www.upperstatestreet.org/visit/", null ], null, null, null, null, null, null, null, null, null, "-72.909300000000002", "41.316000000000003", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", null, [ "{\"address\":\"1010 State St\",\"city\":\"New Haven\",\"state\":\"Connecticut\",\"zip\":\"6511\"}", "41.316000000000003", "-72.909300000000002", null, false ] ]
+  , [ 134, "F9763975-7988-453D-AEA9-B49F42229FE6", 134, 1395407744, "875279", 1395407744, "875279", "{\n}", "1004394", "urban oaks organic farm", [ "http://www.blog.urbanoaks.org", null ], "Hartford", "01/01/2013 to 12/31/2013", "Fri: 2:00 PM-6:00 PM;Sat: 10:00 AM-2:00 PM;", null, null, null, null, null, null, "-72.775548999999998", "41.680233000000001", "Other", "Y", "Y", "N", "Y", "Y", "Y", "Y", "N", "N", "Y", "N", "Y", "Y", "Y", "Y", "Y", "Y", "N", "N", "Y", "N", "N", "N", "N", "N", "41449.604027777779", [ "{\"address\":\"225 Oak St.\",\"city\":\"New Britain\",\"state\":\"Connecticut\",\"zip\":\"6051\"}", "41.680233000000001", "-72.775548999999998", null, false ] ]
+  , [ 135, "F2C0592C-371B-4C41-A8D8-E0B28C0FA8E2", 135, 1395407744, "875279", 1395407744, "875279", "{\n}", "20361", "Village of Devon Farmer's Market", [ null, null ], null, null, null, null, null, null, null, null, null, "-73.104299999999995", "41.201500000000003", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", null, [ "{\"address\":\"120 Bridgeport Ave.\",\"city\":\"Milford\",\"state\":\"Connecticut\",\"zip\":\"6460\"}", "41.201500000000003", "-73.104299999999995", null, false ] ]
+  , [ 136, "D181A4B0-6772-46EC-94DF-636BF311D52B", 136, 1395407744, "875279", 1395407744, "875279", "{\n}", "20363", "Voluntown Farmers' Market", [ null, null ], null, null, null, null, null, null, null, null, null, "-71.865899999999996", "41.573599999999999", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", null, [ "{\"address\":\"195 Main Street (Route 138)\",\"city\":\"Voluntown\",\"state\":\"Connecticut\",\"zip\":\"6384\"}", "41.573599999999999", "-71.865899999999996", null, false ] ]
+  , [ 137, "E3C9F9A1-9E43-412C-BD27-2D6599797117", 137, 1395407744, "875279", 1395407744, "875279", "{\n}", "1007456", "Wallingford Farmers Market", [ null, null ], "New Haven", null, null, null, null, null, null, null, null, "-72.823300000000003", "41.457000000000001", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "2009", [ "{\"address\":\"Railroad Station Green\",\"city\":\"Wallingford\",\"state\":\"Connecticut\",\"zip\":\"6492\"}", "41.457000000000001", "-72.823300000000003", null, false ] ]
+  , [ 138, "41DD69C9-8D2F-40E3-ACB8-8F2FE4B4B19B", 138, 1395407744, "875279", 1395407744, "875279", "{\n}", "1007492", "WASHINGTON DEPOT FARMERS’ MARKET", [ null, null ], "Litchfield", null, null, null, null, null, null, null, null, "-73.320499999999996", "41.639699999999998", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "2009", [ "{\"address\":\"Washington Senior Center, 6 Bryan Hall Plz\",\"city\":\"Washington Depot\",\"state\":\"Connecticut\",\"zip\":\"\"}", "41.639699999999998", "-73.320499999999996", null, false ] ]
+  , [ 139, "424F6F13-2605-4705-918B-939A70B65393", 139, 1395407744, "875279", 1395407744, "875279", "{\n}", "1007484", "WATERBURY - FULTON PARK FARMERS’ MARKET", [ null, null ], "New Haven", null, null, null, null, null, null, null, null, "-73.037751999999998", "41.569015", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "2009", [ "{\"address\":\"Fulton Park Greenhouse\",\"city\":\"Waterbury\",\"state\":\"Connecticut\",\"zip\":\"\"}", "41.569015", "-73.037751999999998", null, false ] ]
+  , [ 140, "F65ACBA0-F45F-4392-8A57-C96EF23221CE", 140, 1395407744, "875279", 1395407744, "875279", "{\n}", "1007500", "WATERBURY - MALL FARMERS’ MARKET", [ null, null ], "New Haven", null, null, null, null, null, null, null, null, "-73.043300000000002", "41.554400000000001", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "2009", [ "{\"address\":\"Brass City Mall, West Parking Lot\",\"city\":\"Waterbury\",\"state\":\"Connecticut\",\"zip\":\"\"}", "41.554400000000001", "-73.043300000000002", null, false ] ]
+  , [ 141, "5E4D23C2-2D21-420E-8D03-5B65B74D17A7", 141, 1395407744, "875279", 1395407744, "875279", "{\n}", "1007513", "Waterbury - South End Farmers’ Market", [ null, null ], "New Haven", null, null, null, null, null, null, null, null, "-73.027900000000002", "41.540100000000002", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "2011", [ "{\"address\":\"Sylvan Avenue\",\"city\":\"Waterbury\",\"state\":\"Connecticut\",\"zip\":\"\"}", "41.540100000000002", "-73.027900000000002", null, false ] ]
+  , [ 142, "1612338E-D543-4058-8370-2C84C99C3C5C", 142, 1395407744, "875279", 1395407744, "875279", "{\n}", "1007454", "WATERBURY - TOWN GREEN FARMERS’ MARKET", [ null, null ], "New Haven", null, null, null, null, null, null, null, null, "-73.083500000000001", "41.586599999999997", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "2009", [ "{\"address\":\"Downtown Green, Main Street\",\"city\":\"Waterbury\",\"state\":\"Connecticut\",\"zip\":\"6702\"}", "41.586599999999997", "-73.083500000000001", null, false ] ]
+  , [ 143, "96C6C4A2-F14C-4C99-BDB6-397DA45FC033", 143, 1395407744, "875279", 1395407744, "875279", "{\n}", "1001956", "Waterford Farmers' Market", [ "http://www.waterfordfarmersmarket.wordpress.com", null ], "New London", "June to October", "Sat:9:00 AM - 12:00 PM;", null, null, null, null, null, null, "-72.131489999999999", "41.342970000000001", "Local government building grounds", "Y", "N", "Y", "Y", "N", "Y", "Y", "Y", "Y", "Y", "N", "Y", "Y", "Y", "Y", "N", "Y", "Y", "N", "N", "Y", "Y", "Y", "Y", "N", "41039.643587962964", [ "{\"address\":\"15 Rope Ferry Road\",\"city\":\"Waterford\",\"state\":\"Connecticut\",\"zip\":\"6385\"}", "41.342970000000001", "-72.131489999999999", null, false ] ]
+  , [ 144, "A5E985D1-C322-4355-954E-2D7E5DE367D7", 144, 1395407744, "875279", 1395407744, "875279", "{\n}", "20367", "Watertown, CT Farmers' Market", [ "http://www.localharvest.org/watertown-ct-farmers-market-M58461", null ], null, null, null, null, null, null, null, null, null, "-73.089600000000004", "41.589500000000001", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "Y", "N", "N", "N", "N", null, [ "{\"address\":\"470 Main Street\",\"city\":\"Watertown\",\"state\":\"Connecticut\",\"zip\":\"\"}", "41.589500000000001", "-73.089600000000004", null, false ] ]
+  , [ 145, "8369866C-104C-4D61-B321-DEA61B52145E", 145, 1395407744, "875279", 1395407744, "875279", "{\n}", "1007517", "WEST HARTFORD – WHOLE FOODS FARMERS’ MARKET", [ null, null ], "Hartford", null, null, null, null, null, null, null, null, "-72.739599999999996", "41.761600000000001", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "40956.595775462964", [ "{\"address\":\"Whole Foods Parking Lot, 50 Raymond Road\",\"city\":\"West Hartford\",\"state\":\"Connecticut\",\"zip\":\"6107\"}", "41.761600000000001", "-72.739599999999996", null, false ] ]
+  , [ 146, "04F31C08-0C5C-4C95-9543-9E3350B07DB6", 146, 1395407744, "875279", 1395407744, "875279", "{\n}", "1005690", "West Hartford Farmers Market", [ null, null ], "Hartford", null, null, null, null, null, null, null, null, "-72.751999999999995", "41.756999999999998", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "2009", [ "{\"address\":\"LaSalle Road public parking lot\",\"city\":\"West Hartford\",\"state\":\"Connecticut\",\"zip\":\"6105\"}", "41.756999999999998", "-72.751999999999995", null, false ] ]
+  , [ 147, "293B27FA-9C25-4FDC-8244-B3B2C760B893", 147, 1395407744, "875279", 1395407744, "875279", "{\n}", "1007479", "West Haven Farmers Market", [ null, null ], "New Haven", null, null, null, null, null, null, null, null, "-72.949799999999996", "41.272300000000001", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "2009", [ "{\"address\":\"West Haven Green\",\"city\":\"West Haven\",\"state\":\"Connecticut\",\"zip\":\"\"}", "41.272300000000001", "-72.949799999999996", null, false ] ]
+  , [ 148, "4F4B0822-420E-4ED3-80EB-ECDEAFB59A59", 148, 1395407744, "875279", 1395407744, "875279", "{\n}", "1007455", "Weston Farmers Market", [ null, null ], "Fairfield", null, null, null, null, null, null, null, null, "-73.373599999999996", "41.191299999999998", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "2009", [ "{\"address\":\"Rte. 157 - High Acre Road\",\"city\":\"Weston\",\"state\":\"Connecticut\",\"zip\":\"6883\"}", "41.191299999999998", "-73.373599999999996", null, false ] ]
+  , [ 149, "F71FE4BF-32AB-4157-8D8D-B3AB04CDAFC2", 149, 1395407744, "875279", 1395407744, "875279", "{\n}", "1007486", "WESTPORT - SAUGATUCK FARMERS’ MARKET", [ null, null ], "Fairfield", null, null, null, null, null, null, null, null, "-73.373000000000005", "41.134", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "2009", [ "{\"address\":\"Saugatuck Congregational Church, 245 Post Road\",\"city\":\"Westport\",\"state\":\"Connecticut\",\"zip\":\"\"}", "41.134", "-73.373000000000005", null, false ] ]
+  , [ 150, "953EAE02-A37D-43F7-B831-9A71FFEEB4BB", 150, 1395407744, "875279", 1395407744, "875279", "{\n}", "1007485", "WESTPORT FARMERS MARKET", [ null, null ], "Fairfield", null, null, null, null, null, null, null, null, "-73.3583", "41.139699999999998", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "2009", [ "{\"address\":\"Municipal Parking Lot, 26 Imperial Avenue\",\"city\":\"Westport\",\"state\":\"Connecticut\",\"zip\":\"\"}", "41.139699999999998", "-73.3583", null, false ] ]
+  , [ 151, "01AEA228-71CF-4BAD-91A9-E4CD95509921", 151, 1395407744, "875279", 1395407744, "875279", "{\n}", "1000993", "WETHERSFIELD FARMERS’ MARKET", [ "http://www.wethersfieldfarmersmarket.com", null ], "Hartford", "05/16/2013 to 10/31/2013", "Thu: 3:00 PM-6:00 PM;", null, null, null, null, null, null, "-72.660365999999996", "41.719133200000002", "Local government building grounds", "Y", "N", "Y", "Y", "N", "Y", "Y", "Y", "Y", "Y", "N", "Y", "Y", "Y", "Y", "Y", "Y", "N", "N", "Y", "Y", "Y", "Y", "N", "N", "41436.459664351853", [ "{\"address\":\"220 Hartford Ave.\",\"city\":\"Wethersfield\",\"state\":\"Connecticut\",\"zip\":\"6109\"}", "41.719133200000002", "-72.660365999999996", null, false ] ]
+  , [ 152, "040B14CF-5812-44FF-B573-105784E9FD10", 152, 1395407744, "875279", 1395407744, "875279", "{\n}", "1007494", "WILLIMANTIC FARMERS’ MARKET", [ null, null ], "Tolland", null, null, null, null, null, null, null, null, "-73.357900000000001", "41.141500000000001", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "2009", [ "{\"address\":\"Under the pavillion near the Frog Bridge,\",\"city\":\"Westport\",\"state\":\"Connecticut\",\"zip\":\"\"}", "41.141500000000001", "-73.357900000000001", null, false ] ]
+  , [ 153, "288FF9D7-3EF2-4FCF-8A59-5DD0F20E4578", 153, 1395407744, "875279", 1395407744, "875279", "{\n}", "1007700", "Wilson Farmers Market", [ "http://www.ctfarmfresh.com", null ], "Hartford", null, null, null, null, null, null, null, null, "-72.731800000000007", "41.879600000000003", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "2009", [ "{\"address\":\"Connecticut Service for Blind\",\"city\":\"Wilson\",\"state\":\"Connecticut\",\"zip\":\"6095\"}", "41.879600000000003", "-72.731800000000007", null, false ] ]
+  , [ 154, "35D3B01F-A53E-4116-A110-5D52F7B0B917", 154, 1395407744, "875279", 1395407744, "875279", "{\n}", "1007514", "Wilton Farmers’ Market", [ null, null ], "Fairfield", null, null, null, null, null, null, null, null, "-73.424599999999998", "41.188200000000002", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "2011", [ "{\"address\":\"224 Danbury Road\",\"city\":\"Wilton\",\"state\":\"Connecticut\",\"zip\":\"\"}", "41.188200000000002", "-73.424599999999998", null, false ] ]
+  , [ 155, "465E9EDA-AAFE-4E08-A35D-3CCD901D95FB", 155, 1395407744, "875279", 1395407744, "875279", "{\n}", "1007722", "WINDSOR FARMERS’ MARKET", [ "http://www.firsttowndowntown.org", null ], "Hartford", null, null, null, null, null, null, null, null, "-72.644099999999995", "41.851300000000002", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "2009", [ "{\"address\":\"Corner of Maple Avenue &amp; Broad Street\",\"city\":\"Windsor\",\"state\":\"Connecticut\",\"zip\":\"\"}", "41.851300000000002", "-72.644099999999995", null, false ] ]
+  , [ 156, "B851C07D-303B-49F2-95BF-E81D0AA08B56", 156, 1395407744, "875279", 1395407744, "875279", "{\n}", "1007493", "WOODBURY FARMERS’ MARKET", [ null, null ], "Litchfield", null, null, null, null, null, null, null, null, "-73.209999999999994", "41.534700000000001", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "2009", [ "{\"address\":\"Hollow Park, 43 Hollow Road\",\"city\":\"Woodbury\",\"state\":\"Connecticut\",\"zip\":\"\"}", "41.534700000000001", "-73.209999999999994", null, false ] ]
+  , [ 104, "2CBEB89B-DEAC-4F48-B500-7BD242D86C5D", 104, 1395407744, "875279", 1479478005, "875279", null, "1007782", "RIDGEFIELD FARMERS’ MARKET", [ null, null ], "Fairfield", null, null, null, null, null, null, null, null, "-73.493600000000001", "41.292000000000002", null, "Y", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "N", "2009", [ "{\"address\":\"88-90 Danbury Road\",\"city\":\"Ridgefield\",\"state\":\"Connecticut\",\"zip\":\"\"}", "41.292000000000002", "-73.493600000000001", null, false ] ]
+   ]
+  }
