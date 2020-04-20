@@ -49,7 +49,7 @@ section#titlechart {
 	text-align: center;
 	position: relative;
 	height: 100%;
-	min-height: 500px;
+	min-height: 130px;
 	min-width: 100%;
 	height: 100vh;
 	background-color: #97DFFC;
@@ -61,22 +61,27 @@ section#titlechart {
 	height: 100%;
 }
 section#titlechart #description {
-	top: 50%;
-	left: 50%;
-	position: absolute;
-	width: 600px;
-	height: 300px;
-	margin: -150px auto auto -300px;
+	top: -12%;
+	right: 1%;
+	position: absolute; 
+	width: 100%;
+	height: 130px;
+	/* margin: -150px auto auto -300px; */
 }
 section#titlechart.home #description {
 	padding-top: 0;
-	padding-bottom: 100px;
+	padding-bottom: 10px;
 }
 section#titlechart #description h1 {
 	margin: 0;
 }
 section#titlechart #description h2 {
-	margin-bottom: 20px;
+	top: 50%;
+	right: 50%;
+}
+section#titlechart #description h3 {
+	top: -25%;
+	right: 50%;
 }
 section#titlechart #description a.viewsource {
 	margin-bottom: 20px;
@@ -98,11 +103,11 @@ section#titlechart #description ol, section#titlechart #description p {
 section#titlechart #description ol {
 	list-style-position: outside;
 }
-#example-wrapper section#titlechart #description:after {
+ /* #example-wrapper section#titlechart #description:after {
 	content: "↧";
 	font-size: 40px;
 	display: block;
-}
+}  */
 #example-wrapper.horizontal section#titlechart #description:after {
 	content: "↦";
 }
