@@ -5,8 +5,8 @@
 	height: 100%;
 }
 .scrollContainer {
-	overflow-y: scroll;
-	overflow-x: hidden;
+	overflow-y: visible;
+	overflow-x: hidden
 	width: 100%
 }
 .scrollContainer {
