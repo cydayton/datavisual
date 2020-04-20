@@ -61,25 +61,30 @@ section#titlechart {
 	height: 100%;
 }
 section#titlechart #description {
-	top: -12%;
+	top: -20%;
 	right: 1%;
 	position: absolute; 
 	width: 100%;
-	height: 130px;
+	height: 140px;
 	/* margin: -150px auto auto -300px; */
 }
 section#titlechart.home #description {
 	padding-top: 0;
-	padding-bottom: 10px;
+	padding-bottom: 20px;
 }
 section#titlechart #description h1 {
 	margin: 0;
+	top: -10%;
 }
 section#titlechart #description h2 {
 	top: 50%;
 	right: 50%;
 }
 section#titlechart #description h3 {
+	top: -25%;
+	right: 50%;
+}
+section#titlechart #description h5 {
 	top: -25%;
 	right: 50%;
 }

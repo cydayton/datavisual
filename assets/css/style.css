@@ -20,13 +20,23 @@ h1 {
 }
 h2 {
 	font-size: 32px;
+	text-align:center;
+	color: white;
+}
+h3 {
+	font-size: 20px;
+	font-weight: lighter;
+	text-align: center;
+}
+h4 {
+	font-size: 32px;
 	text-align:right;
 	color: white;
 	top: 50%;
 	right: 10%;
 	position: absolute;
 }
-h3 {
+h5 {
 	font-size: 20px;
 	font-weight: lighter;
 	text-align: right;
