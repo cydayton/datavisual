@@ -179,3 +179,4 @@ For more information click [here](https://github.com/janpaepke/ScrollMagic/blob/
 ## Thanks
 
 This library was made possible by many people who have supported it with passion, donations or advice. Special thanks go out to: [John Polacek](https://github.com/johnpolacek), [Jack Doyle](https://github.com/greensock), [Paul Irish](https://github.com/paulirish), [Nicholas Cerminara](https://github.com/ncerminara), [Kai Dorschner](https://github.com/krnlde), [Petr Tichy](https://github.com/petr-tichy) and [Dennis Gaebel](https://github.com/grayghostvisuals).
+# visualizingdata
